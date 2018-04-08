@@ -4,7 +4,9 @@ ENV HYPYPATH ${HYPYPATH}:/opt/hyst-1.5/src
 
 RUN apt-get update && \ 
 	apt-get install -y build-essential \
-			libopenblas-dev \ 
+			libopenblas-dev \
+			git \
+			python-pip \	 
 			unzip \
 			gnuplot &&\
 	wget http://stanleybak.com/papers/bak2017cav_repeatability.zip -P /opt && \
@@ -25,6 +27,10 @@ RUN apt-get update && \
 	unzip /opt/v1.5.zip -d /opt && \ 	
         python -m py_compile /opt/hyst-1.5/src/hybridpy/hybridpy/tool_hylaa.py && \
 	echo 'backend : Agg' > /usr/local/lib/python2.7/dist-packages/matplotlib/mpl-data/matplotlibrc && \
+	apt-get --purge -y remove build-essential \
+				python-pip \
+				git \
+                                unzip && \
 	rm -f /opt/*.zip && \
 	rm -f /opt/*.gz	&& \
 	rm -rf /var/lib/apt/lists/* && \
