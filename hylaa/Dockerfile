@@ -37,5 +37,6 @@ RUN apt-get update && \
 	rm -rf /tmp/*
 
 COPY warmup.py /opt/optimizations/
+COPY time.py /opt/optimizations/
 CMD ["/usr/bin/python","-u","/opt/optimizations/warmup.py"]
 CMD ["/bin/bash"]
