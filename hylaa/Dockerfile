@@ -18,7 +18,6 @@ RUN apt-get update && \
 	./configure && make && make install &&\
 	cd /opt/hylaa/hylaa/glpk_interface && \
 	make && \
-	pip install --upgrade pip && \
 	pip install matplotlib \ 
 		scipy \
 		numpy \
