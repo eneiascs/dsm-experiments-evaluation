@@ -34,7 +34,7 @@ RUN apt-get update && \
 	rm -f /opt/*.gz	&& \
 	rm -rf /var/lib/apt/lists/* && \
 	rm -rf /tmp/*
-
+COPY run_opt_measurements.py /opt/optimizations/
 COPY warmup.py /opt/optimizations/
 COPY time.py /opt/optimizations/
 CMD ["/usr/bin/python","-u","/opt/optimizations/warmup.py"]
