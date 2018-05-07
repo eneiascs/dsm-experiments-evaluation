@@ -37,5 +37,5 @@ RUN apt-get update && \
 COPY run_opt_measurements.py /opt/optimizations/
 COPY warmup.py /opt/optimizations/
 COPY time.py /opt/optimizations/
-CMD ["/usr/bin/python","-u","/opt/optimizations/warmup.py"]
+COPY run /opt/dohko/job/
 CMD ["/bin/bash"]
