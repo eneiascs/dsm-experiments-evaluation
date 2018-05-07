@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   dsm-storage-mongo:
-    image: "mongo"
+    image: "eneiascs/mongo:1.0.0"
     ports:
      - "27017:27017"
     volumes:
