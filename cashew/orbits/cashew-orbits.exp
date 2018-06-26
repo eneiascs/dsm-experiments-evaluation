@@ -1,0 +1,90 @@
+Experiment cashew {
+  description "Constraint Normalization and Parameterized Caching for Quantitative Program Analysis"	 				 
+  Research Hypotheses {	
+    RH1 {averageTime cashew = noCache description "Average time for Cashew is equals than Average time for No Cache"},
+    RH2 {maxTime cashew = noCache description "Maximum time for Cashew is equals than Average time for No Cache"},
+    RH3 {sumTime cashew = noCache description "Total time for Cashew is equals than Average time for No Cache"},
+    RH4 {orbits cashew = noCache description "Number of Orbits for Cashew is equals than the Number of Orbits for No Cache"},
+    RH5 {orbits cashew = cashewExceptOrder description "Number of Orbits for Cashew is equals than the Number of Orbits for Cashew Except Order"},
+    RH6 {orbits cashew = cashewExceptReduce description "Number of Orbits for Cashew is equals than the Number of Orbits for Cashew Except Reduce"},
+    RH7 {orbits cashew = cashewExceptRemove description "Number of Orbits for Cashew is equals than the Number of Orbits for Cashew Except Remove"},
+    RH8 {orbits cashew = cashewExceptRenameAlph description "Number of Orbits for Cashew is equals than the Number of Orbits for Cashew Except Rename Alph"},
+    RH9 {orbits cashew = cashewExceptRenameVar description "Number of Orbits for Cashew is equals than the Number of Orbits for Cashew Except Rename Var"}
+      
+    
+  }	 	
+  Experimental Design {
+    runs 1
+      
+  }
+  Dependent Variables {
+    averageTime { description "Average time" scaleType Absolute unit "s" instrument averageTimeCommand },
+    maxTime { description "Maximum time" scaleType Absolute unit "s" instrument maxTimeCommand },
+    sumTime { description "Total time" scaleType Absolute unit "s" instrument sumTimeCommand },
+    orbits { description "Number of Orbits" scaleType Absolute instrument orbitsCommand }
+    
+  }	
+  Instruments {
+    averageTimeCommand {command  ""  valueExpression "mean:" },
+    maxTimeCommand {command  ""  valueExpression "max:" },
+    sumTimeCommand {command  ""  valueExpression "sum:" },
+    orbitsCommand {command  ""  valueExpression "N-orbits:" }
+  }	  
+  Factors {
+    transformations { description "Transformations enabled" scaleType Nominal}
+  } 
+  Treatments {
+    cashew description "All transformations"  factor transformations parameters{conf "kaluza.cashew.conf"} execution cashewExecutor,
+    noCache description "No cache"  factor transformations parameters{conf "kaluza.nocache.conf"} execution cashewExecutor,	
+    cashewExceptOrder description "Except order"  factor transformations parameters{conf "kaluza.cashew-except-order.conf"} execution cashewExecutor,
+    cashewExceptReduce description "Except removeVar"  factor transformations parameters{conf "kaluza.cashew-except-reduce.conf"} execution cashewExecutor,
+    cashewExceptRemove description "Except removeConj"  factor transformations parameters{conf "kaluza.cashew-except-remove.conf"} execution cashewExecutor,
+    cashewExceptRenameAlph description "Except rename alph"  factor transformations parameters{conf "kaluza.cashew-except-renameAlph.conf"} execution cashewExecutor,
+    cashewExceptRenameVar description "Except rename var"  factor transformations parameters{conf "kaluza.cashew-except-renameVar.conf"} execution cashewExecutor
+    
+    
+  }
+  Objects { description "Constraints" scaleType Nominal {
+    
+    small {
+      description "SMC-Small"
+      parameters {
+          preffix "small"
+      }
+      
+    },
+    big {
+      description "SMC-Big"
+      parameters {
+          preffix "big"
+      }
+      
+    }
+  }
+  }	 
+  Executions { 
+      
+     cashewExecutor { 
+    
+      command "/root/phab/green/run-orbits.sh ${treatment.parameter.conf} ${object.parameter.preffix}" 
+      
+       timeout 100000
+      
+      
+      
+      preprocessing { 
+          redisFlush { command "redis-cli flushall" },
+          mkdir{ command "mkdir -p /root/phab/green/exps.${treatment.parameter.conf}.${object.parameter.preffix}.output"}
+            
+             
+                    
+      }
+          
+    }
+  }
+  Infrastructure {
+    user{
+      username "vagrant"
+    }
+  }
+}

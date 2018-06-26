@@ -1,0 +1,79 @@
+Experiment cashew {
+  description "Constraint Normalization and Parameterized Caching for Quantitative Program Analysis"	 				 
+  Research Hypotheses {	
+    RH1 {sumTime cashew = nocache description "Total time for Cashew is equals than Total time for No Cache"},
+    RH2 {sumTime cashew = trivialcaching description "Total time for Cashew is equals than Total time for No Normalization"},
+    RH3 {hits cashew = trivialcaching description "Number of hits for Cashew is equals than Number of hits for No Normalization"},
+    RH4 {misses cashew = trivialcaching description "Number of misses for Cashew is equals than Number of misses for No Normalization"},
+    RH5 {hitsMissesRatio cashew = trivialcaching description "Hits/Misses ratio for Cashew is equals than Hits/Misses ratio for No Normalization"}
+    
+  }	 	
+  Experimental Design {
+    runs 1
+      
+  }
+  Dependent Variables {
+   
+    sumTime { description "Total time" scaleType Absolute unit "s" instrument sumTimeCommand },
+    hits { description "Hits" scaleType Absolute  instrument hitsCommand },
+    misses { description "Misses" scaleType Absolute  instrument missesCommand },
+    hitsMissesRatio { description "Hits/Misses ratio" scaleType Absolute  instrument hitsMissesRatioCommand }
+    
+  }	
+  Instruments {
+    sumTimeCommand {command  ""  valueExpression "time:" },
+    hitsCommand {command  ""  valueExpression "hits:" },
+    missesCommand {command  ""  valueExpression "misses:" },
+    hitsMissesRatioCommand {command  ""  valueExpression "hitsmissesratio:" }
+    
+  }	  
+  Factors {
+    transformations { description "Transformations enabled" scaleType Nominal}
+  } 
+  Treatments {
+    nocache description "No cache"  factor transformations parameters{conf "kaluza.nocache.conf"} execution cashewExecutor,	
+    trivialcaching description "No Normalization"  factor transformations parameters{conf "kaluza.cashew-except-order.conf"} execution cashewExecutor,
+    cashew description "Cashew"  factor transformations parameters{conf "kaluza.cashew.conf"} execution cashewExecutor
+    
+    
+  }
+  Objects { description "Constraints" scaleType Nominal {
+    password {description "Password1"},
+    password2 {description "Password2"},
+    obscure {description "Obscure"},
+    crime {description "CRIME"}
+     
+    }
+  }	 
+  Executions { 
+      
+     cashewExecutor { 
+    
+      command "/root/phab/jpf-security/src/examples/cashew/get-results-security.sh ${treatment.name} ${object.name}"
+      
+     
+      preprocessing { 
+          redisFlush { command "redis-cli flushall" },
+          mkdir{ command "mkdir -p /root/phab/jpf-security/src/examples/cashew/${object.name}/exps.rockyou1k16"},
+          run{ command "/bin/bash -c 'for pw in $(cat /root/phab/jpf-security/src/examples/cashew/${object.name}/rockyou1k16.txt); do java -Xmx2g -jar /root/phab/jpf-core/build/RunJPF.jar /root/phab/jpf-security/src/examples/cashew/${object.name}/${object.name}.${treatment.name}.jpf +target.args=${pw} > /root/phab/jpf-security/src/examples/cashew/${object.name}/exps.rockyou1k16/${treatment.name}.${pw}.log; done'"
+              
+              timeout 100000
+          } 
+           
+            
+      }
+     
+     postprocessing {
+          redisSave { command "redis-cli save" },
+          redisCopy { command "cp /var/lib/redis/dump.rdb /root/phab/jpf-security/src/examples/cashew/${object.name}/redis_after.rockyou1k16.${treatment.name}.rdb" }
+     }
+           
+    }
+    
+  }
+  Infrastructure {
+    user{
+      username "vagrant"
+    }
+  }
+}
