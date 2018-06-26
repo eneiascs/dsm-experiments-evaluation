@@ -57,7 +57,7 @@ Please see [Troubleshooting](#troubleshooting) section for common errors.
 
 * Prompt to folder `hylaa/docker/`.
 
-* If necessary, change `cpuset` and `mem_limit` according to your machine resources in `docker-compose.yml` and `.env` files.
+* If necessary, change `cpuset` and `mem_limit` according to your machine resources in `docker-compose.yml` and `.env` files. We use the pre-built image `eneiascs/hylaa`. This image was built over the Dohko image `eneiascs/dohko-job`. If you want to recreate this image, use the files contained in `hylaa/docker/`.
 
 * Run the command `docker-compose up --force-recreate` inside folder `hylaa/docker/`.
 
