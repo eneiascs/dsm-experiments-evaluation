@@ -289,23 +289,23 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * Create a folder named results and a subfolder for each object:
 
-`mkdir -p results/password` 
+    * `mkdir -p results/password` 
 
-`mkdir -p results/password2` 
+    * `mkdir -p results/password2` 
 
-`mkdir -p results/crime` 
+    * `mkdir -p results/crime` 
 
-`mkdir -p results/obscure` 
+    * `mkdir -p results/obscure` 
 
 * Copy the results files:
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password/results.dat results/password/results.dat`
+    * `docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password/results.dat results/password/results.dat`
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password2/results.dat results/password2/results.dat`
+    * `docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password2/results.dat results/password2/results.dat`
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/crime/results.dat results/crime/results.dat`
+    * `docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/crime/results.dat results/crime/results.dat`
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/obscure/results.dat results/obscure/results.dat`
+    * `docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/obscure/results.dat results/obscure/results.dat`
 
 #### Comparing the results ####
 
