@@ -1,5 +1,5 @@
 # Description #
-We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. We also present instructions to replicate the experiments. The source-code of the tool can be found in this [repository](https://dl.bintray.com/eneiascs/dsm-experiments/evaluation/dsm-experiments-sources.zip). Please use the same password used to open this file.
+We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. We also present instructions to replicate the experiments. The source-code of the tool can be found in this [repository](https://github.com/eneiascs/dsm-experiments) or downloaded [here](https://dl.bintray.com/eneiascs/dsm-experiments/evaluation/dsm-experiments-sources.zip). Please use the same password used to open this file.
 
 
 # Objectives #
