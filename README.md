@@ -141,11 +141,10 @@ These script also generates the file `result-comparison.dat` with the comparison
 
 ### Replication ###
 
-The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
+The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) but using `cahew/docker/` folder and `cashew/orbits/cashew-orbits.exp` specification file.
 
 #### Running the experiment with our tool ####
 
-* The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) but using `cahew/docker/` folder and `cashew/orbits/cashew-orbits.exp` specification file.
 
 * Prompt to folder `cahew/docker/`.
 
@@ -236,11 +235,10 @@ These script also generates the file `result-comparison.dat` with the comparison
 
 ### Replication ###
 
-The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
+The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) and [Experiment 2](#experiment-2) but using `cahew/docker/` folder and `cashew/security/cashew-security.exp` specification file.
 
 #### Running the experiment with our tool ####
 
-* The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) and [Experiment 2](#experiment-2) but using `cahew/docker/` folder and `cashew/security/cashew-security.exp` specification file.
 
 * Prompt to folder `cahew/docker/`.
 
