@@ -1,0 +1,142 @@
+[
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptOrder_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptOrder",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptOrder_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptOrder",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptReduce_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptReduce",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptReduce_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptReduce",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRemove_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRemove",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRemove_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRemove",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRenameAlph_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRenameAlph",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRenameAlph_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRenameAlph",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRenameVar_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRenameVar",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashewExceptRenameVar_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashewExceptRenameVar",
+    "object": "big"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "noCache_small_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "noCache",
+    "object": "small"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "noCache_big_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "noCache",
+    "object": "big"
+  }
+]

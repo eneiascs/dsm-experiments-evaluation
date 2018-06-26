@@ -1,0 +1,128 @@
+[
+  {
+    "hypothesis": "RH1",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH2",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH3",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH4",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH5",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH6",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH7",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH8",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH9",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "small",
+        "result": 5
+      },
+      {
+        "object": "big",
+        "result": 5
+      }
+    ]
+  }
+]

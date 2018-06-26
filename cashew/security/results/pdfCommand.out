@@ -1,0 +1,579 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+
+(/home/docker/Cashew-security/executions/2018-05-08-00-11-30/cashew-security.te
+x
+LaTeX2e <2017-04-15>
+Babel <3.13> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty)
+No file cashew-security.aux.
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 80--81
+[][] 
+[2 <./figure/overview_sumTime-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 85--86
+[][] 
+[3 <./figure/overview_hits-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 90--91
+[][] 
+[4 <./figure/overview_misses-1.pdf>] [5 <./figure/overview_hitsMissesRatio-1.pd
+f>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 102--103
+[][] 
+[6 <./figure/password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 104--105
+[][] 
+[7 <./figure/password-2.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 106--107
+[][] 
+[8 <./figure/password-3.pdf>] [9 <./figure/password-4.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 114--115
+[][] 
+[10 <./figure/password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 116--117
+[][] 
+[11 <./figure/password2-2.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 118--119
+[][] 
+[12 <./figure/password2-3.pdf>] [13 <./figure/password2-4.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 126--127
+[][] 
+[14 <./figure/obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 128--129
+[][] 
+[15 <./figure/obscure-2.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 130--131
+[][] 
+[16 <./figure/obscure-3.pdf>] [17 <./figure/obscure-4.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 138--139
+[][] 
+[18 <./figure/crime-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 140--141
+[][] 
+[19 <./figure/crime-2.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 142--143
+[][] 
+[20 <./figure/crime-3.pdf>] [21 <./figure/crime-4.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 172--173
+[][] 
+[22 <./figure/overview_RH1-1.pdf>]
+Overfull \hbox (5.27693pt too wide) in paragraph at lines 185--185
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "no
+cache" &
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 186--187
+[][] 
+[23 <./figure/RH1_cashew_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 194--195
+[][] 
+[24 <./figure/RH1_nocache_password-1.pdf>]
+Overfull \hbox (14.30684pt too wide) in paragraph at lines 197--197
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 213--213
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[25 <./figure/RH1_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 231--232
+[][] 
+[26 <./figure/RH1_cashew_password2-1.pdf>]
+Overfull \hbox (5.27693pt too wide) in paragraph at lines 244--244
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "no
+cache" &
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 245--246
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 253--254
+[][] 
+[27 <./figure/RH1_nocache_password2-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 256--256
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password2'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 272--272
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[28 <./figure/RH1_password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 290--291
+[][] 
+[29 <./figure/RH1_cashew_obscure-1.pdf>]
+Overfull \hbox (5.27693pt too wide) in paragraph at lines 303--303
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "no
+cache" &
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 304--305
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 312--313
+[][] 
+[30 <./figure/RH1_nocache_obscure-1.pdf>]
+Overfull \hbox (9.05688pt too wide) in paragraph at lines 315--315
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]obscure'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 331--331
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[31 <./figure/RH1_obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 349--350
+[][] 
+[32 <./figure/RH1_cashew_crime-1.pdf>]
+Overfull \hbox (5.27693pt too wide) in paragraph at lines 362--362
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "no
+cache" &
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 363--364
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 371--372
+[][] 
+[33 <./figure/RH1_nocache_crime-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 374--374
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]crime' not
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 390--390
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[34 <./figure/RH1_crime-1.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd) [35]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 459--460
+[][] 
+[36 <./figure/overview_RH2-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 472--472
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 473--474
+[][] 
+[37 <./figure/RH2_cashew_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 481--482
+[][] 
+[38 <./figure/RH2_trivialcaching_password-1.pdf>]
+Overfull \hbox (14.30684pt too wide) in paragraph at lines 484--484
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 500--500
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 500--500
+[]\OT1/cmtt/m/n/10 ## Total time for No Normalization is  97.0148082384622 % gr
+eater than[] 
+[39 <./figure/RH2_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 518--519
+[][] 
+[40 <./figure/RH2_cashew_password2-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 531--531
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 532--533
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 540--541
+[][] 
+[41 <./figure/RH2_trivialcaching_password2-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 543--543
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password2'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 559--559
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 559--559
+[]\OT1/cmtt/m/n/10 ## Total time for No Normalization is  151.767643510739 % gr
+eater than[] 
+[42 <./figure/RH2_password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 577--578
+[][] 
+[43 <./figure/RH2_cashew_obscure-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 590--590
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 591--592
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 599--600
+[][] 
+[44 <./figure/RH2_trivialcaching_obscure-1.pdf>]
+Overfull \hbox (9.05688pt too wide) in paragraph at lines 602--602
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]obscure'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 618--618
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 618--618
+[]\OT1/cmtt/m/n/10 ## Total time for No Normalization is  94.4489254661782 % gr
+eater than[] 
+[45 <./figure/RH2_obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 636--637
+[][] 
+[46 <./figure/RH2_cashew_crime-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 649--649
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 650--651
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 658--659
+[][] 
+[47 <./figure/RH2_trivialcaching_crime-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 661--661
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]crime' not
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 677--677
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 677--677
+[]\OT1/cmtt/m/n/10 ## Total time for No Normalization is  163.413803541698 % gr
+eater than[] 
+[48 <./figure/RH2_crime-1.pdf>] [49]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 746--747
+[][] 
+[50 <./figure/overview_RH3-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 759--759
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 760--761
+[][] 
+[51 <./figure/RH3_cashew_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 768--769
+[][] 
+[52 <./figure/RH3_trivialcaching_password-1.pdf>]
+Overfull \hbox (14.30684pt too wide) in paragraph at lines 771--771
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 787--787
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[53 <./figure/RH3_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 805--806
+[][] 
+[54 <./figure/RH3_cashew_password2-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 818--818
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 819--820
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 827--828
+[][] 
+[55 <./figure/RH3_trivialcaching_password2-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 830--830
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password2'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 846--846
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[56 <./figure/RH3_password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 864--865
+[][] 
+[57 <./figure/RH3_cashew_obscure-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 877--877
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 878--879
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 886--887
+[][] 
+[58 <./figure/RH3_trivialcaching_obscure-1.pdf>]
+Overfull \hbox (9.05688pt too wide) in paragraph at lines 889--889
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]obscure'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 905--905
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[59 <./figure/RH3_obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 923--924
+[][] 
+[60 <./figure/RH3_cashew_crime-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 936--936
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 937--938
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 945--946
+[][] 
+[61 <./figure/RH3_trivialcaching_crime-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 948--948
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]crime' not
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 964--964
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+[62 <./figure/RH3_crime-1.pdf>] [63]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1033--1034
+[][] 
+[64 <./figure/overview_RH4-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1046--1046
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1047--1048
+[][] 
+[65 <./figure/RH4_cashew_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1055--1056
+[][] 
+[66 <./figure/RH4_trivialcaching_password-1.pdf>]
+Overfull \hbox (14.30684pt too wide) in paragraph at lines 1058--1058
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1074--1074
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1074--1074
+[]\OT1/cmtt/m/n/10 ## Misses for No Normalization is  414.263480728737 % greate
+r than[] 
+[67 <./figure/RH4_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1092--1093
+[][] 
+[68 <./figure/RH4_cashew_password2-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1105--1105
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1106--1107
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1114--1115
+[][] 
+[69 <./figure/RH4_trivialcaching_password2-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 1117--1117
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password2'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1133--1133
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1133--1133
+[]\OT1/cmtt/m/n/10 ## Misses for No Normalization is  321.960752215106 % greate
+r than[] 
+[70 <./figure/RH4_password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1151--1152
+[][] 
+[71 <./figure/RH4_cashew_obscure-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1164--1164
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1165--1166
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1173--1174
+[][] 
+[72 <./figure/RH4_trivialcaching_obscure-1.pdf>]
+Overfull \hbox (9.05688pt too wide) in paragraph at lines 1176--1176
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]obscure'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1192--1192
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1192--1192
+[]\OT1/cmtt/m/n/10 ## Misses for No Normalization is  106.615303799685 % greate
+r than[] 
+[73 <./figure/RH4_obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1210--1211
+[][] 
+[74 <./figure/RH4_cashew_crime-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1223--1223
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1224--1225
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1232--1233
+[][] 
+[75 <./figure/RH4_trivialcaching_crime-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 1235--1235
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]crime' not
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1251--1251
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (1.49698pt too wide) in paragraph at lines 1251--1251
+[]\OT1/cmtt/m/n/10 ## Misses for No Normalization is  123.018397751975 % greate
+r than[] 
+[76 <./figure/RH4_crime-1.pdf>] [77]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1320--1321
+[][] 
+[78 <./figure/overview_RH5-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1333--1333
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1334--1335
+[][] 
+[79 <./figure/RH5_cashew_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1342--1343
+[][] 
+[80 <./figure/RH5_trivialcaching_password-1.pdf>]
+Overfull \hbox (14.30684pt too wide) in paragraph at lines 1345--1345
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1361--1361
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1361--1361
+[]\OT1/cmtt/m/n/10 ## Hits/Misses ratio for Cashew is  1740.44126591842 % great
+er than[] 
+[81 <./figure/RH5_password-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1379--1380
+[][] 
+[82 <./figure/RH5_cashew_password2-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1392--1392
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1393--1394
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1401--1402
+[][] 
+[83 <./figure/RH5_trivialcaching_password2-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 1404--1404
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]password2'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1420--1420
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1420--1420
+[]\OT1/cmtt/m/n/10 ## Hits/Misses ratio for Cashew is  9043.82541135931 % great
+er than[] 
+[84 <./figure/RH5_password2-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1438--1439
+[][] 
+[85 <./figure/RH5_cashew_obscure-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1451--1451
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1452--1453
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1460--1461
+[][] 
+[86 <./figure/RH5_trivialcaching_obscure-1.pdf>]
+Overfull \hbox (9.05688pt too wide) in paragraph at lines 1463--1463
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]obscure'
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1479--1479
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1479--1479
+[]\OT1/cmtt/m/n/10 ## Hits/Misses ratio for Cashew is  3253.29482703154 % great
+er than[] 
+[87 <./figure/RH5_obscure-1.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1497--1498
+[][] 
+[88 <./figure/RH5_cashew_crime-1.pdf>]
+Overfull \hbox (31.5267pt too wide) in paragraph at lines 1510--1510
+[]\OT1/cmtt/m/n/10 ## Error in shapiro.test(subset(json[]data, treatment == "tr
+ivialcaching"
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1511--1512
+[][] 
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 1519--1520
+[][] 
+[89 <./figure/RH5_trivialcaching_crime-1.pdf>]
+Overfull \hbox (19.5568pt too wide) in paragraph at lines 1522--1522
+[]\OT1/cmtt/m/n/10 ## Error in eval(expr, envir, enclos): object 'shap[]cashew[
+]crime' not
+
+Overfull \hbox (59.24648pt too wide) in paragraph at lines 1538--1538
+[]\OT1/cmtt/m/n/10 ## [1] "Wilcoxon-Mann-Whitney test: Null Hypothesis not reje
+cted. P-value: 1"[] 
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1538--1538
+[]\OT1/cmtt/m/n/10 ## Hits/Misses ratio for Cashew is  447.607111383174 % great
+er than[] 
+[90 <./figure/RH5_crime-1.pdf>] [91] [92] [93]
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 1792--1792
+[]\OT1/cmtt/m/n/10 ## [1] methods   stats     graphics  grDevices utils     dat
+asets  base[] 
+
+Overfull \hbox (43.49661pt too wide) in paragraph at lines 1792--1792
+[]\OT1/cmtt/m/n/10 ## [1] plyr_1.8.4       jsonlite_1.5     ggplot2_2.2.1    re
+producer_0.1.9[] 
+[94] (./cashew-security.aux) )
+(see the transcript file for additional information)</usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t10.pfb>
+Output written on cashew-security.pdf (94 pages, 502846 bytes).
+Transcript written on cashew-security.log.

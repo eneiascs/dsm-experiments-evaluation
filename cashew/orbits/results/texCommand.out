@@ -1,0 +1,1155 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |                                                                 |   1%
+  ordinary text without R code
+
+  |                                                                         |.                                                                |   1%
+label: setup (with options) 
+List of 4
+ $ include: logi FALSE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.                                                                |   2%
+  ordinary text without R code
+
+
+label: overview_averageTime (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..                                                               |   3%
+label: overview_maxTime (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+label: overview_sumTime (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..                                                               |   4%
+label: overview_orbits (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |...                                                              |   4%
+  ordinary text without R code
+
+  |                                                                         |...                                                              |   5%
+label: small (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |....                                                             |   6%
+label: big (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |....                                                             |   7%
+label: RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....                                                            |   7%
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   8%
+label: overview_RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......                                                           |   9%
+label: RH1_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......                                                           |  10%
+label: RH1_noCache_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......                                                          |  10%
+  ordinary text without R code
+
+  |                                                                         |.......                                                          |  11%
+label: RH1_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  12%
+label: RH1_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  13%
+label: RH1_noCache_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........                                                        |  13%
+  ordinary text without R code
+
+  |                                                                         |.........                                                        |  14%
+label: RH1_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  15%
+label: unnamed-chunk-1 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |..........                                                       |  16%
+label: RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........                                                      |  16%
+  ordinary text without R code
+
+  |                                                                         |...........                                                      |  17%
+label: overview_RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............                                                     |  18%
+label: RH2_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............                                                     |  19%
+label: RH2_noCache_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............                                                    |  19%
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  20%
+label: RH2_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..............                                                   |  21%
+label: RH2_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..............                                                   |  22%
+label: RH2_noCache_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............                                                  |  22%
+  ordinary text without R code
+
+  |                                                                         |...............                                                  |  23%
+label: RH2_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  24%
+label: unnamed-chunk-2 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |................                                                 |  25%
+label: RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................                                                |  26%
+  ordinary text without R code
+
+
+label: overview_RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................                                                |  27%
+  ordinary text without R code
+
+  |                                                                         |..................                                               |  27%
+label: RH3_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................                                               |  28%
+  ordinary text without R code
+
+
+label: RH3_noCache_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................                                              |  29%
+  ordinary text without R code
+
+
+label: RH3_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................                                              |  30%
+  ordinary text without R code
+
+  |                                                                         |....................                                             |  30%
+label: RH3_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................                                             |  31%
+  ordinary text without R code
+
+
+label: RH3_noCache_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................                                            |  32%
+  ordinary text without R code
+
+
+label: RH3_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................                                            |  33%
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  33%
+label: unnamed-chunk-3 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |......................                                           |  34%
+   inline R code fragments
+
+
+label: RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................                                          |  35%
+  ordinary text without R code
+
+
+label: overview_RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................                                          |  36%
+  ordinary text without R code
+
+  |                                                                         |........................                                         |  36%
+label: RH4_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................                                         |  37%
+  ordinary text without R code
+
+
+label: RH4_noCache_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  38%
+  ordinary text without R code
+
+
+label: RH4_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  39%
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  39%
+label: RH4_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................                                       |  40%
+  ordinary text without R code
+
+
+label: RH4_noCache_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................                                      |  41%
+  ordinary text without R code
+
+
+label: RH4_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................                                      |  42%
+  ordinary text without R code
+
+  |                                                                         |............................                                     |  42%
+label: unnamed-chunk-4 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |............................                                     |  43%
+   inline R code fragments
+
+
+label: RH5 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................                                    |  44%
+  ordinary text without R code
+
+
+label: overview_RH5 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................                                    |  45%
+  ordinary text without R code
+
+  |                                                                         |..............................                                   |  45%
+label: RH5_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................                                   |  46%
+  ordinary text without R code
+
+
+label: RH5_cashewExceptOrder_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................                                  |  47%
+  ordinary text without R code
+
+
+label: RH5_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................                                  |  48%
+  ordinary text without R code
+
+  |                                                                         |................................                                 |  48%
+label: RH5_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................                                 |  49%
+  ordinary text without R code
+
+
+label: RH5_cashewExceptOrder_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................                                |  51%
+label: RH5_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.................................                                |  52%
+label: unnamed-chunk-5 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..................................                               |  52%
+   inline R code fragments
+
+  |                                                                         |..................................                               |  53%
+label: RH6 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  54%
+label: overview_RH6 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  55%
+label: RH6_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................                             |  55%
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  56%
+label: RH6_cashewExceptReduce_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  57%
+label: RH6_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  58%
+label: RH6_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................................                           |  58%
+  ordinary text without R code
+
+  |                                                                         |......................................                           |  59%
+label: RH6_cashewExceptReduce_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................                          |  60%
+label: RH6_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................                          |  61%
+label: unnamed-chunk-6 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |........................................                         |  61%
+   inline R code fragments
+
+  |                                                                         |........................................                         |  62%
+label: RH7 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  63%
+label: overview_RH7 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  64%
+label: RH7_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................                       |  64%
+  ordinary text without R code
+
+  |                                                                         |..........................................                       |  65%
+label: RH7_cashewExceptRemove_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  66%
+label: RH7_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: RH7_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............................................                     |  67%
+  ordinary text without R code
+
+  |                                                                         |............................................                     |  68%
+label: RH7_cashewExceptRemove_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  69%
+label: RH7_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  70%
+label: unnamed-chunk-7 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..............................................                   |  70%
+   inline R code fragments
+
+  |                                                                         |..............................................                   |  71%
+label: RH8 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  72%
+label: overview_RH8 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  73%
+label: RH8_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................................                 |  73%
+  ordinary text without R code
+
+  |                                                                         |................................................                 |  74%
+label: RH8_cashewExceptRenameAlph_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.................................................                |  75%
+label: RH8_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................................................                |  76%
+  ordinary text without R code
+
+
+label: RH8_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................................               |  77%
+  ordinary text without R code
+
+
+label: RH8_cashewExceptRenameAlph_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................................               |  78%
+  ordinary text without R code
+
+  |                                                                         |...................................................              |  78%
+label: RH8_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................................              |  79%
+  ordinary text without R code
+
+
+label: unnamed-chunk-8 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |....................................................             |  80%
+   inline R code fragments
+
+
+label: RH9 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................................             |  81%
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  81%
+label: overview_RH9 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................................................            |  82%
+  ordinary text without R code
+
+
+label: RH9_cashew_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................................................           |  83%
+  ordinary text without R code
+
+
+label: RH9_cashewExceptRenameVar_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................................................           |  84%
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  84%
+label: RH9_small (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................................................          |  85%
+  ordinary text without R code
+
+
+label: RH9_cashew_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  86%
+  ordinary text without R code
+
+
+label: RH9_cashewExceptRenameVar_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  87%
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  87%
+label: RH9_big (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................................................        |  88%
+  ordinary text without R code
+
+
+label: unnamed-chunk-9 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..........................................................       |  89%
+   inline R code fragments
+
+
+label: unnamed-chunk-10 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..........................................................       |  90%
+   inline R code fragments
+
+  |                                                                         |...........................................................      |  90%
+label: unnamed-chunk-11 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |...........................................................      |  91%
+   inline R code fragments
+
+
+label: unnamed-chunk-12 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |............................................................     |  92%
+   inline R code fragments
+
+
+label: unnamed-chunk-13 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |............................................................     |  93%
+   inline R code fragments
+
+  |                                                                         |.............................................................    |  93%
+label: unnamed-chunk-14 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |.............................................................    |  94%
+   inline R code fragments
+
+
+label: unnamed-chunk-15 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..............................................................   |  95%
+   inline R code fragments
+
+
+label: unnamed-chunk-16 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..............................................................   |  96%
+   inline R code fragments
+
+  |                                                                         |...............................................................  |  96%
+label: unnamed-chunk-17 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |...............................................................  |  97%
+   inline R code fragments
+
+
+label: unnamed-chunk-18 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |................................................................ |  98%
+   inline R code fragments
+
+
+label: unnamed-chunk-19 (with options) 
+List of 3
+ $ echo   : logi TRUE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |................................................................ |  99%
+  ordinary text without R code
+
+  |                                                                         |.................................................................|  99%
+label: unnamed-chunk-20 (with options) 
+List of 3
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "cashew-orbits.tex"

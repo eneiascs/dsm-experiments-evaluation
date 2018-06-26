@@ -1,0 +1,4 @@
+(set-logic QF_S)
+(declare-fun var_0xINPUT_234260 () String)
+(assert (and (not (= var_0xINPUT_234260 "4PH2ujcENG")) (= (len var_0xINPUT_234260) 0) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= (len var_0xINPUT_234260) 0)) (= (len var_0xINPUT_234260) 0) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= (len var_0xINPUT_234260) 0)) (= (len var_0xINPUT_234260) 0) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= (len var_0xINPUT_234260) 0)) (= (len var_0xINPUT_234260) 0) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= var_0xINPUT_234260 "4PH2ujcENG")) (not (= (len var_0xINPUT_234260) 0)) (= (len var_0xINPUT_234260) 0)))
+(check-sat var_0xINPUT_234260)

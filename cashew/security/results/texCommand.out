@@ -1,0 +1,1065 @@
+  |                                                                         |                                                                 |   0%  |                                                                         |                                                                 |   1%
+  ordinary text without R code
+
+  |                                                                         |.                                                                |   1%
+label: setup (with options) 
+List of 4
+ $ include: logi FALSE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.                                                                |   2%
+  ordinary text without R code
+
+
+label: overview_sumTime (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..                                                               |   3%
+label: overview_hits (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+label: overview_misses (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |...                                                              |   4%
+label: overview_hitsMissesRatio (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |...                                                              |   5%
+label: password (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |....                                                             |   6%
+  ordinary text without R code
+
+
+label: password2 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |....                                                             |   7%
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   7%
+label: obscure (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.....                                                            |   8%
+  ordinary text without R code
+
+
+label: crime (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |......                                                           |   9%
+  ordinary text without R code
+
+
+label: RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......                                                           |  10%
+  ordinary text without R code
+
+  |                                                                         |.......                                                          |  11%
+label: overview_RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  12%
+label: RH1_cashew_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  13%
+label: RH1_nocache_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........                                                        |  13%
+  ordinary text without R code
+
+  |                                                                         |.........                                                        |  14%
+label: RH1_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  15%
+label: RH1_cashew_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........                                                       |  16%
+  ordinary text without R code
+
+
+label: RH1_nocache_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........                                                      |  17%
+  ordinary text without R code
+
+
+label: RH1_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............                                                     |  18%
+  ordinary text without R code
+
+
+label: RH1_cashew_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............                                                     |  19%
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  19%
+label: RH1_nocache_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............                                                    |  20%
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  21%
+label: RH1_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............                                                   |  21%
+  ordinary text without R code
+
+  |                                                                         |..............                                                   |  22%
+label: RH1_cashew_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............                                                  |  23%
+label: RH1_nocache_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  24%
+label: RH1_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................                                                 |  25%
+label: unnamed-chunk-1 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |.................                                                |  26%
+   inline R code fragments
+
+
+label: RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................                                                |  27%
+  ordinary text without R code
+
+  |                                                                         |..................                                               |  27%
+label: overview_RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................                                               |  28%
+  ordinary text without R code
+
+
+label: RH2_cashew_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................                                              |  29%
+  ordinary text without R code
+
+
+label: RH2_trivialcaching_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................                                             |  30%
+  ordinary text without R code
+
+  |                                                                         |....................                                             |  31%
+label: RH2_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................                                            |  32%
+label: RH2_cashew_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................                                            |  33%
+label: RH2_trivialcaching_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................                                           |  33%
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  34%
+label: RH2_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................                                          |  35%
+label: RH2_cashew_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................                                          |  36%
+  ordinary text without R code
+
+
+label: RH2_trivialcaching_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................                                         |  37%
+  ordinary text without R code
+
+
+label: RH2_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  38%
+  ordinary text without R code
+
+
+label: RH2_cashew_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  39%
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  39%
+label: RH2_trivialcaching_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................                                       |  40%
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  41%
+label: RH2_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................                                      |  41%
+  ordinary text without R code
+
+  |                                                                         |...........................                                      |  42%
+label: unnamed-chunk-2 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |............................                                     |  43%
+label: RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................                                    |  44%
+label: overview_RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................                                    |  45%
+label: RH3_cashew_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................                                   |  46%
+  ordinary text without R code
+
+
+label: RH3_trivialcaching_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................                                   |  47%
+  ordinary text without R code
+
+  |                                                                         |...............................                                  |  47%
+label: RH3_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................                                  |  48%
+  ordinary text without R code
+
+
+label: RH3_cashew_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................                                 |  49%
+  ordinary text without R code
+
+
+label: RH3_trivialcaching_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................                                 |  50%
+  ordinary text without R code
+
+  |                                                                         |.................................                                |  51%
+label: RH3_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..................................                               |  52%
+label: RH3_cashew_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..................................                               |  53%
+label: RH3_trivialcaching_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................                              |  53%
+  ordinary text without R code
+
+  |                                                                         |...................................                              |  54%
+label: RH3_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  55%
+label: RH3_cashew_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................                             |  56%
+  ordinary text without R code
+
+
+label: RH3_trivialcaching_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................................                            |  57%
+  ordinary text without R code
+
+
+label: RH3_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................................                           |  58%
+  ordinary text without R code
+
+
+label: unnamed-chunk-3 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |......................................                           |  59%
+   inline R code fragments
+
+  |                                                                         |.......................................                          |  59%
+label: RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................................                          |  60%
+  ordinary text without R code
+
+  |                                                                         |.......................................                          |  61%
+label: overview_RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................                         |  61%
+  ordinary text without R code
+
+  |                                                                         |........................................                         |  62%
+label: RH4_cashew_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  63%
+label: RH4_trivialcaching_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........................................                       |  64%
+label: RH4_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........................................                       |  65%
+label: RH4_cashew_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................................                      |  66%
+  ordinary text without R code
+
+
+label: RH4_trivialcaching_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................................                      |  67%
+  ordinary text without R code
+
+  |                                                                         |............................................                     |  67%
+label: RH4_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............................................                     |  68%
+  ordinary text without R code
+
+
+label: RH4_cashew_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................................                    |  69%
+  ordinary text without R code
+
+
+label: RH4_trivialcaching_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................................                   |  70%
+  ordinary text without R code
+
+  |                                                                         |..............................................                   |  71%
+label: RH4_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  72%
+label: RH4_cashew_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  73%
+label: RH4_trivialcaching_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................................                 |  73%
+  ordinary text without R code
+
+  |                                                                         |................................................                 |  74%
+label: RH4_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.................................................                |  75%
+label: unnamed-chunk-4 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |.................................................                |  76%
+   inline R code fragments
+
+
+label: RH5 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................................               |  77%
+  ordinary text without R code
+
+
+label: overview_RH5 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................................              |  78%
+  ordinary text without R code
+
+
+label: RH5_cashew_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................................              |  79%
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  79%
+label: RH5_trivialcaching_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................................             |  80%
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  81%
+label: RH5_password (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................................................            |  81%
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  82%
+label: RH5_cashew_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................................................           |  83%
+label: RH5_trivialcaching_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  84%
+label: RH5_password2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  85%
+label: RH5_cashew_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  86%
+  ordinary text without R code
+
+
+label: RH5_trivialcaching_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  87%
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  87%
+label: RH5_obscure (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................................................        |  88%
+  ordinary text without R code
+
+
+label: RH5_cashew_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................................       |  89%
+  ordinary text without R code
+
+
+label: RH5_trivialcaching_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................................       |  90%
+  ordinary text without R code
+
+  |                                                                         |...........................................................      |  91%
+label: RH5_crime (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............................................................     |  92%
+label: unnamed-chunk-5 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |............................................................     |  93%
+label: unnamed-chunk-6 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |.............................................................    |  93%
+   inline R code fragments
+
+  |                                                                         |.............................................................    |  94%
+label: unnamed-chunk-7 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |..............................................................   |  95%
+label: unnamed-chunk-8 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |..............................................................   |  96%
+   inline R code fragments
+
+
+label: unnamed-chunk-9 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |...............................................................  |  97%
+   inline R code fragments
+
+
+label: unnamed-chunk-10 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |................................................................ |  98%
+   inline R code fragments
+
+
+label: unnamed-chunk-11 (with options) 
+List of 3
+ $ echo   : logi TRUE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |................................................................ |  99%
+  ordinary text without R code
+
+  |                                                                         |.................................................................|  99%
+label: unnamed-chunk-12 (with options) 
+List of 3
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.................................................................| 100%
+  ordinary text without R code
+
+
+[1] "cashew-security.tex"

@@ -1,0 +1,49 @@
+"dependentVariable" "treatment" "object" "original" "reproduction" "difference"
+"hits" "Cashew" "CRIME" 78289 78289 0
+"hits" "Cashew" "Obscure" 32443 32443 0
+"hits" "Cashew" "Password1" 62797 62797 0
+"hits" "Cashew" "Password2" 659804 659804 0
+"hits" "No cache" "CRIME" NA NA NA
+"hits" "No cache" "Obscure" NA NA NA
+"hits" "No cache" "Password1" NA NA NA
+"hits" "No cache" "Password2" NA NA NA
+"hits" "No Normalization" "CRIME" 31884 31884 0
+"hits" "No Normalization" "Obscure" 1999 1999 0
+"hits" "No Normalization" "Password1" 17547 17547 0
+"hits" "No Normalization" "Password2" 30448 30448 0
+"hitsMissesRatio" "Cashew" "CRIME" 2.07542 2.07542 0
+"hitsMissesRatio" "Cashew" "Obscure" 1.13616 1.13616 0
+"hitsMissesRatio" "Cashew" "Password1" 5.74906 5.74906 0
+"hitsMissesRatio" "Cashew" "Password2" 3.37537 3.37537 0
+"hitsMissesRatio" "No cache" "CRIME" NA NA NA
+"hitsMissesRatio" "No cache" "Obscure" NA NA NA
+"hitsMissesRatio" "No cache" "Password1" NA NA NA
+"hitsMissesRatio" "No cache" "Password2" NA NA NA
+"hitsMissesRatio" "No Normalization" "CRIME" 0.378998 0.378998 0
+"hitsMissesRatio" "No Normalization" "Obscure" 0.0338819 0.0338819 0
+"hitsMissesRatio" "No Normalization" "Password1" 0.312374 0.312374 0
+"hitsMissesRatio" "No Normalization" "Password2" 0.0369142 0.0369142 0
+"misses" "Cashew" "CRIME" 37722 37722 0
+"misses" "Cashew" "Obscure" 28555 28555 0
+"misses" "Cashew" "Password1" 10923 10923 0
+"misses" "Cashew" "Password2" 195476 195476 0
+"misses" "No cache" "CRIME" NA NA NA
+"misses" "No cache" "Obscure" NA NA NA
+"misses" "No cache" "Password1" NA NA NA
+"misses" "No cache" "Password2" NA NA NA
+"misses" "No Normalization" "CRIME" 84127 84127 0
+"misses" "No Normalization" "Obscure" 58999 58999 0
+"misses" "No Normalization" "Password1" 56173 56173 0
+"misses" "No Normalization" "Password2" 824832 824832 0
+"sumTime" "Cashew" "CRIME" 1626.53 1585.68 -0.0251148149742088
+"sumTime" "Cashew" "Obscure" 1482.03 1462.96 -0.0128674858133776
+"sumTime" "Cashew" "Password1" 208.513 203.873 -0.0222528091773655
+"sumTime" "Cashew" "Password2" 1899.93 1898.29 -0.000863189696462554
+"sumTime" "No cache" "CRIME" 4362.45 4311.08 -0.0117754931288611
+"sumTime" "No cache" "Obscure" 3172.23 3151.55 -0.00651907333327023
+"sumTime" "No cache" "Password1" 463.612 470.68 0.0152455070188002
+"sumTime" "No cache" "Password2" 4689.48 4803.33 0.0242777450804781
+"sumTime" "No Normalization" "CRIME" 4218.28 4176.9 -0.00980968546421767
+"sumTime" "No Normalization" "Obscure" 2888.71 2844.71 -0.0152317124252694
+"sumTime" "No Normalization" "Password1" 395.782 401.66 0.0148516102298741
+"sumTime" "No Normalization" "Password2" 4737.73 4779.28 0.00877002277461995

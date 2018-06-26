@@ -1,0 +1,6 @@
+(set-logic QF_S)
+(declare-fun PCTEMP_LHS_1_idx_0 () String)
+(declare-fun var_0xINPUT_35818 () String)
+(declare-fun T0_2 () String)
+(assert (and (= T0_2 PCTEMP_LHS_1_idx_0) (= T0_2 var_0xINPUT_35818)))
+(check-sat var_0xINPUT_35818)

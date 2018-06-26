@@ -1,5 +1,5 @@
 # Description #
-We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. We also present instructions to replicate the experiments. The source-code of the tool can be found in this [repository](https://dl.bintray.com/eneiascs/dsm-experiments/evaluation/dsm-experiments-sources.zip). 
+We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. We also present instructions to replicate the experiments. The source-code of the tool can be found in this [repository](https://dl.bintray.com/eneiascs/dsm-experiments/evaluation/dsm-experiments-sources.zip). Please use the same password used to open this file.
 
 
 # Objectives #
@@ -53,15 +53,69 @@ The steps to replicate our evaluation are: run the experiment with our tool, run
 
 #### Running the experiment with our tool ####
 
+Run the command `docker-compose up` inside folder `hylaa/docker/`.
+
+Please see [Tips and Tricks](#tips-and-tricks) section for common errors.
+
+The file `docker-compose.yml` contains the configuration necessary to run all the Docker containers containing the components. This file also loads some environment variables defined in the file `.env`.
+
+
+
+If necessary, change `cpuset` and `mem_limit` according to your machine resources.
+
+It is also possible to split the execution in several machines. In this case, create a `docker-compose.yml` for each service, and set the URLs accordingly.
+
+## Using the Tool ##
+After the tool is running, open the URL [http://localhost/autoexp/texteditor](http://localhost/autoexp/texteditor), or replace `localhost` with the IP address, if accessing from another machine.
+
+The tool is an Eclipse RAP application. For this reason, it looks like the Eclipse IDE. 
+
+### Creating a new Project ###
+
+Click on `File`, `New` then `Project`.
+
+Insert the project name, and then click on `Finish`.
+
+
+### Creating a new Model ###
+
+Right-click on the project folder, then select `New`, then `Model`.
+
+Insert the model name with the extension `.exp`, then click on `Finish`.
+
+### Editing the Model ###
+
+Double-click the model file, then use the editor to create the model.
+
+### Generating the scripts ###
+Once the model is created, right-click on the model file, then click on `Generate`. The generated files are placed in the folder `src-gen`.
+
+
+### Running the experiment ###
+Right-click on the model file, then click on `Generate and Run`. This command generate the scripts and run them. First, the execution script is executed using Dohko. While running, the execution status is presented to the user. After the execution finishes, the analysis script is executed.
+
+Each execution creates a folder inside the folder `executions`. The folder and the generated files are copied to this folder. The execution results are written to `data.json` file. The analysis script generates a pdf file with the analysis report with the same name as the model file.
+
+### Execution status  ###
+
+To re-open the execution status while the applications are running, right-click on the execution folder (subfolder of executions), then click on `Execution Status`.
+
+
+### Analyzing the results ###
+The analysis script is automatically executed after execution finishes. However, if you want to re-run it, right-click on the execution folder (subfolder of executions), then click on `Run Analysis`.
+
+
+
+
 #### Running the experiment with original scripts ####
 
 #### Results comparison ####
 
-* In the tool, Download the execution folder containing the results, and unzip it;
+* With the tool, Download the execution folder containing the results right-clicking on the folder and selecting the command `Download`. Then, unzip the downloaded file;
 
-* Copy the execution results obtained with original scripts from the container to the same execution folder, inside a subfolder `out`;
+* Copy the execution results obtained with original scripts from the container to the previously downloaded results folder. Keep these files inside a subfolder `out`;
 
-* Copy the scripts `hylaa/scripts/replication.R` and `hylaa/scripts/original_data.R` to the execution results folder;
+* Copy the scripts `hylaa/scripts/replication.R` and `hylaa/scripts/original_data.R` to the results folder;
 
 * Run the script `replication.R` with the command `Rscript replication.R`. [R](https://www.r-project.org/) must be installed in the machine. The execution of this script will produce the `Rplot*.pdf` files and the result file `result-comparison.dat`. To join the plot files in a single pdf, run the command `pdfunite Rplot*.pdf Rplots.pdf`.
 
@@ -75,7 +129,43 @@ __Experiment 2.__ Brennan et al. \[4] presented a constraint caching framework t
 
 ### Results ###
 
+The folder `cashew/orbits/results` contains the result files as well the scripts used in the replication of Experiment 2.
+
+The following files are used/generated by our tool:
+
+* `cashew-orbits.exp` is the specification file used to run the experiment with our tool;
+* `cashew-orbits.yml` is the execution script generated from `cashew-orbits.exp`;
+* `cashew-orbits.Rnw` is the analysis script generated from `cashew-orbits.exp`;
+* `data.json` contains the execution results;
+* `cashew-orbits.pdf` contains the analysis report;
+
+The folder `cashew/orbits/results/results` contains the result files resulting from the execution with the original scripts.
+
+To compare the results obtained with and without the tool, we used the R script `replication.R`. This script also uses the script `original_data.R`.
+The script `replication.R` generates a series of plots comparing the results from both replications. Each `Rplot*.pdf` file contains one plot, and the file `Rplots.pdf` contains all of them.
+These script also generates the file `result-comparison.dat` with the comparison results for each tuple of dependent variable, treatment, and object.
+
 ### Replication ###
+
+The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
+
+#### Running the experiment with our tool ####
+
+
+
+
+
+#### Running the experiment with original scripts ####
+
+#### Results comparison ####
+
+* With the tool, Download the execution folder containing the results right-clicking on the folder and selecting the command `Download`. Then, unzip the downloaded file;
+
+* Copy the execution results obtained with original scripts from the container to the previously downloaded results folder. Keep these files inside a subfolder `results`;
+
+* Copy the scripts `cashew/orbits/scripts/replication.R` and `cashew/orbits/scripts/original_data.R` to the results folder;
+
+* Run the script `replication.R` with the command `Rscript replication.R`. [R](https://www.r-project.org/) must be installed in the machine. The execution of this script will produce the `Rplot*.pdf` files and the result file `result-comparison.dat`. To join the plot files in a single pdf, run the command `pdfunite Rplot*.pdf Rplots.pdf`.
 
 ## Experiment 3 ##
 
@@ -88,7 +178,65 @@ For each of the four programs under analysis, they ran 1,000 symbolic-execution-
 
 ### Results ###
 
+The folder `cashew/security/results` contains the result files as well the scripts used in the replication of Experiment 3.
+
+The following files are used/generated by our tool:
+
+* `cashew-security.exp` is the specification file used to run the experiment with our tool;
+* `cashew-security.yml` is the execution script generated from `cashew-security.exp`;
+* `cashew-security.Rnw` is the analysis script generated from `cashew-security.exp`;
+* `data.json` contains the execution results;
+* `cashew-security.pdf` contains the analysis report;
+
+The folder `cashew/security/results/results` contains the result files resulting from the execution with the original scripts.
+
+To compare the results obtained with and without the tool, we used the R script `replication.R`. This script also uses the script `original_data.R`.
+The script `replication.R` generates a series of plots comparing the results from both replications. Each `Rplot*.pdf` file contains one plot, and the file `Rplots.pdf` contains all of them.
+These script also generates the file `result-comparison.dat` with the comparison results for each tuple of dependent variable, treatment, and object.
+
 ### Replication ###
+
+The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
+
+#### Running the experiment with our tool ####
+
+#### Running the experiment with original scripts ####
+
+#### Results comparison ####
+
+* With the tool, Download the execution folder containing the results right-clicking on the folder and selecting the command `Download`. Then, unzip the downloaded file;
+
+* Copy the execution results obtained with original scripts from the container to the previously downloaded results folder. Keep these files inside a subfolder `results`. This folder should contain the subfolders `crime`, `obscure`, `password`, and `password2`;
+
+* Copy the scripts `cashew/security/scripts/replication.R` and `cashew/security/scripts/original_data.R` to the results folder;
+
+* Run the script `replication.R` with the command `Rscript replication.R`. [R](https://www.r-project.org/) must be installed in the machine. The execution of this script will produce the `Rplot*.pdf` files and the result file `result-comparison.dat`. To join the plot files in a single pdf, run the command `pdfunite Rplot*.pdf Rplots.pdf`.
+
+
+# Tips and Tricks #
+
+If you recreated a docker image after running a container, use the command `docker-compose up --force-recreate` to recreate the container.
+
+
+`ERROR: for mysql-data  Cannot create container for service mysqldata: Conflict. The container name "/mysql-data" is already in use by container "3d2570270e793f259a4894aeb4f23302a0291a2d7de11b55fe8b63c2046edf19"Creating docker_dsm-r-base-api_1 ... error`
+
+This happens when we run containers with the same name from distinct folders. For instance, if you run from `hylaa/docker/` and then `cashew/docker/`
+
+Type `docker ps -a` to see all containers in the machine.
+
+Remove the container using the command `docker rm -f <container_name>`. 
+
+For instance,  `docker rm -f mysql-data`.
+
+Or use `docker rm -f $(docker ps -a |awk '{print $1}')` to remove all containers. Be careful to not remove containers used by another applications.
+
+`ERROR: for dsm-storage-mongo  Cannot start service dsm-storage-mongo: driver failed programming external connectivity on endpoint docker_dsm-storage-mongo_1 (e6085c9be8547960935838c90c14d781b5deabf6651e646df131b4d37bedd047): Bind for 0.0.0.0:27017 failed: port is already allocated`
+
+Docker binds ports from the container to the host. 
+
+This error happens when the host is already using the port. 
+
+Either stop the process using the port or bind it to another port in `docker-compose.yml` file.
 
 # References #
 

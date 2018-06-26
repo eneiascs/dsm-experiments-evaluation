@@ -1,0 +1,57 @@
+"dependentVariable" "treatment" "object" "original" "reproduction" "difference"
+"averageTime" "Without caching" "SMC-Big" 12.9415 16.7913 0.297477108526832
+"averageTime" "Without caching" "SMC-Small" 0.212481 0.222547 0.0473736475261317
+"averageTime" "With caching" "SMC-Big" 0.627595 0.644281 0.0265872099044766
+"averageTime" "With caching" "SMC-Small" 0.087613 0.0908586 0.0370447308047893
+"averageTime" "Except order" "SMC-Big" NA NA NA
+"averageTime" "Except order" "SMC-Small" NA NA NA
+"averageTime" "Except removeVar" "SMC-Big" NA NA NA
+"averageTime" "Except removeVar" "SMC-Small" NA NA NA
+"averageTime" "Except removeConj" "SMC-Big" NA NA NA
+"averageTime" "Except removeConj" "SMC-Small" NA NA NA
+"averageTime" "Except rename alph" "SMC-Big" NA NA NA
+"averageTime" "Except rename alph" "SMC-Small" NA NA NA
+"averageTime" "Except rename var" "SMC-Big" NA NA NA
+"averageTime" "Except rename var" "SMC-Small" NA NA NA
+"maxTime" "Without caching" "SMC-Big" 178.635 273.958 0.533618831695917
+"maxTime" "Without caching" "SMC-Small" 1.41662 1.44665 0.0211983453572588
+"maxTime" "With caching" "SMC-Big" 17.3506 17.5548 0.0117690454508778
+"maxTime" "With caching" "SMC-Small" 1.57126 1.54954 -0.0138233010450213
+"maxTime" "Except order" "SMC-Big" NA NA NA
+"maxTime" "Except order" "SMC-Small" NA NA NA
+"maxTime" "Except removeVar" "SMC-Big" NA NA NA
+"maxTime" "Except removeVar" "SMC-Small" NA NA NA
+"maxTime" "Except removeConj" "SMC-Big" NA NA NA
+"maxTime" "Except removeConj" "SMC-Small" NA NA NA
+"maxTime" "Except rename alph" "SMC-Big" NA NA NA
+"maxTime" "Except rename alph" "SMC-Small" NA NA NA
+"maxTime" "Except rename var" "SMC-Big" NA NA NA
+"maxTime" "Except rename var" "SMC-Small" NA NA NA
+"sumTime" "Without caching" "SMC-Big" 4645.99 6028.07 0.297478040202411
+"sumTime" "Without caching" "SMC-Small" 2070.63 2168.72 0.047372055847737
+"sumTime" "With caching" "SMC-Big" 217.776 223.566 0.0265869517302182
+"sumTime" "With caching" "SMC-Small" 853.789 885.417 0.037044281432532
+"sumTime" "Except order" "SMC-Big" NA NA NA
+"sumTime" "Except order" "SMC-Small" NA NA NA
+"sumTime" "Except removeVar" "SMC-Big" NA NA NA
+"sumTime" "Except removeVar" "SMC-Small" NA NA NA
+"sumTime" "Except removeConj" "SMC-Big" NA NA NA
+"sumTime" "Except removeConj" "SMC-Small" NA NA NA
+"sumTime" "Except rename alph" "SMC-Big" NA NA NA
+"sumTime" "Except rename alph" "SMC-Small" NA NA NA
+"sumTime" "Except rename var" "SMC-Big" NA NA NA
+"sumTime" "Except rename var" "SMC-Small" NA NA NA
+"orbits" "Without caching" "SMC-Big" 359 359 0
+"orbits" "Without caching" "SMC-Small" 9710 9710 0
+"orbits" "With caching" "SMC-Big" 34 34 0
+"orbits" "With caching" "SMC-Small" 360 360 0
+"orbits" "Except order" "SMC-Big" 72 72 0
+"orbits" "Except order" "SMC-Small" 376 376 0
+"orbits" "Except removeVar" "SMC-Big" 34 34 0
+"orbits" "Except removeVar" "SMC-Small" 361 361 0
+"orbits" "Except removeConj" "SMC-Big" 40 40 0
+"orbits" "Except removeConj" "SMC-Small" 386 386 0
+"orbits" "Except rename alph" "SMC-Big" 35 35 0
+"orbits" "Except rename alph" "SMC-Small" 841 841 0
+"orbits" "Except rename var" "SMC-Big" 344 344 0
+"orbits" "Except rename var" "SMC-Small" 9645 9645 0

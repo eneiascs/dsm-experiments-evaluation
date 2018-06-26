@@ -1,0 +1,4 @@
+(set-logic QF_S)
+(declare-fun var_0xINPUT_125319 () String)
+(assert (= var_0xINPUT_125319 "https:"))
+(check-sat var_0xINPUT_125319)

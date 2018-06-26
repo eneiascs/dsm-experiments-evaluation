@@ -1,0 +1,122 @@
+[
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_password_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "password"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_password2_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "password2"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_obscure_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "obscure"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "cashew_crime_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "cashew",
+    "object": "crime"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "nocache_password_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "nocache",
+    "object": "password"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "nocache_password2_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "nocache",
+    "object": "password2"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "nocache_obscure_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "nocache",
+    "object": "obscure"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "nocache_crime_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "nocache",
+    "object": "crime"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "trivialcaching_password_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "trivialcaching",
+    "object": "password"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "trivialcaching_password2_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "trivialcaching",
+    "object": "password2"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "trivialcaching_obscure_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "trivialcaching",
+    "object": "obscure"
+  },
+  {
+    "experimentName": "cashew",
+    "design": "FACTORIAL",
+    "runs": 1,
+    "taskName": "trivialcaching_crime_0",
+    "executionName": "cashewExecutor",
+    "factor": "transformations",
+    "treatment": "trivialcaching",
+    "object": "crime"
+  }
+]

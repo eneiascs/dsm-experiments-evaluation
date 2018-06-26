@@ -1,0 +1,4 @@
+flavor	totalTime	Hits	Misses H/M
+nocache   4689.48	0	855280		0
+trivialcaching   4737.73	30448	824832		0.0369142
+cashew   1899.93	659804	195476		3.37537

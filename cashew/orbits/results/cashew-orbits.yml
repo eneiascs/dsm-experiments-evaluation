@@ -1,0 +1,118 @@
+---
+name: "cashew"
+description: "Constraint Normalization and Parameterized Caching for Quantitative Program Analysis"
+user:
+  username: "vagrant"
+blocks:
+  - applications:
+    - name: "pre_redisFlush_cashew_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashew_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew.conf.small.output"
+    - name: "cashew_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashew_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashew_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew.conf.big.output"
+    - name: "cashew_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptOrder_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptOrder_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-order.conf.small.output"
+    - name: "cashewExceptOrder_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-order.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptOrder_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptOrder_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-order.conf.big.output"
+    - name: "cashewExceptOrder_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-order.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptReduce_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptReduce_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-reduce.conf.small.output"
+    - name: "cashewExceptReduce_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-reduce.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptReduce_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptReduce_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-reduce.conf.big.output"
+    - name: "cashewExceptReduce_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-reduce.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRemove_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRemove_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-remove.conf.small.output"
+    - name: "cashewExceptRemove_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-remove.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRemove_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRemove_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-remove.conf.big.output"
+    - name: "cashewExceptRemove_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-remove.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRenameAlph_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRenameAlph_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-renameAlph.conf.small.output"
+    - name: "cashewExceptRenameAlph_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-renameAlph.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRenameAlph_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRenameAlph_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-renameAlph.conf.big.output"
+    - name: "cashewExceptRenameAlph_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-renameAlph.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRenameVar_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRenameVar_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-renameVar.conf.small.output"
+    - name: "cashewExceptRenameVar_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-renameVar.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_cashewExceptRenameVar_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_cashewExceptRenameVar_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.cashew-except-renameVar.conf.big.output"
+    - name: "cashewExceptRenameVar_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.cashew-except-renameVar.conf big"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_noCache_small_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_noCache_small_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.nocache.conf.small.output"
+    - name: "noCache_small_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.nocache.conf small"
+      timeout: 100000
+  - applications:
+    - name: "pre_redisFlush_noCache_big_0"
+      command-line: "redis-cli flushall"
+    - name: "pre_mkdir_noCache_big_0"
+      command-line: "mkdir -p /root/phab/green/exps.kaluza.nocache.conf.big.output"
+    - name: "noCache_big_0"
+      command-line: "/root/phab/green/run-orbits.sh kaluza.nocache.conf big"
+      timeout: 100000

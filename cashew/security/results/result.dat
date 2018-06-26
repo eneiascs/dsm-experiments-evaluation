@@ -1,0 +1,85 @@
+"treatment" "object" "execution" "dependentVariable" "min" "mean" "max"
+"No cache" "Password1" "Original" "sumTime" 463.612 463.612 463.612
+"No Normalization" "Password1" "Original" "sumTime" 395.782 395.782 395.782
+"No Normalization" "Password1" "Original" "hits" 17547 17547 17547
+"No Normalization" "Password1" "Original" "misses" 56173 56173 56173
+"No Normalization" "Password1" "Original" "hitsMissesRatio" 0.312374 0.312374 0.312374
+"Cashew" "Password1" "Original" "sumTime" 208.513 208.513 208.513
+"Cashew" "Password1" "Original" "hits" 62797 62797 62797
+"Cashew" "Password1" "Original" "misses" 10923 10923 10923
+"Cashew" "Password1" "Original" "hitsMissesRatio" 5.74906 5.74906 5.74906
+"No cache" "Password2" "Original" "sumTime" 4689.48 4689.48 4689.48
+"No Normalization" "Password2" "Original" "sumTime" 4737.73 4737.73 4737.73
+"No Normalization" "Password2" "Original" "hits" 30448 30448 30448
+"No Normalization" "Password2" "Original" "misses" 824832 824832 824832
+"No Normalization" "Password2" "Original" "hitsMissesRatio" 0.0369142 0.0369142 0.0369142
+"Cashew" "Password2" "Original" "sumTime" 1899.93 1899.93 1899.93
+"Cashew" "Password2" "Original" "hits" 659804 659804 659804
+"Cashew" "Password2" "Original" "misses" 195476 195476 195476
+"Cashew" "Password2" "Original" "hitsMissesRatio" 3.37537 3.37537 3.37537
+"No cache" "CRIME" "Original" "sumTime" 4362.45 4362.45 4362.45
+"No Normalization" "CRIME" "Original" "sumTime" 4218.28 4218.28 4218.28
+"No Normalization" "CRIME" "Original" "hits" 31884 31884 31884
+"No Normalization" "CRIME" "Original" "misses" 84127 84127 84127
+"No Normalization" "CRIME" "Original" "hitsMissesRatio" 0.378998 0.378998 0.378998
+"Cashew" "CRIME" "Original" "sumTime" 1626.53 1626.53 1626.53
+"Cashew" "CRIME" "Original" "hits" 78289 78289 78289
+"Cashew" "CRIME" "Original" "misses" 37722 37722 37722
+"Cashew" "CRIME" "Original" "hitsMissesRatio" 2.07542 2.07542 2.07542
+"No cache" "Obscure" "Original" "sumTime" 3172.23 3172.23 3172.23
+"No Normalization" "Obscure" "Original" "sumTime" 2888.71 2888.71 2888.71
+"No Normalization" "Obscure" "Original" "hits" 1999 1999 1999
+"No Normalization" "Obscure" "Original" "misses" 58999 58999 58999
+"No Normalization" "Obscure" "Original" "hitsMissesRatio" 0.0338819 0.0338819 0.0338819
+"Cashew" "Obscure" "Original" "sumTime" 1482.03 1482.03 1482.03
+"Cashew" "Obscure" "Original" "hits" 32443 32443 32443
+"Cashew" "Obscure" "Original" "misses" 28555 28555 28555
+"Cashew" "Obscure" "Original" "hitsMissesRatio" 1.13616 1.13616 1.13616
+"Cashew" "Password1" "Reproduction" "sumTime" 203.873 203.873 203.873
+"Cashew" "Password2" "Reproduction" "sumTime" 1898.29 1898.29 1898.29
+"Cashew" "Obscure" "Reproduction" "sumTime" 1462.96 1462.96 1462.96
+"Cashew" "CRIME" "Reproduction" "sumTime" 1585.68 1585.68 1585.68
+"No cache" "Password1" "Reproduction" "sumTime" 470.68 470.68 470.68
+"No cache" "Password2" "Reproduction" "sumTime" 4803.33 4803.33 4803.33
+"No cache" "Obscure" "Reproduction" "sumTime" 3151.55 3151.55 3151.55
+"No cache" "CRIME" "Reproduction" "sumTime" 4311.08 4311.08 4311.08
+"No Normalization" "Password1" "Reproduction" "sumTime" 401.66 401.66 401.66
+"No Normalization" "Password2" "Reproduction" "sumTime" 4779.28 4779.28 4779.28
+"No Normalization" "Obscure" "Reproduction" "sumTime" 2844.71 2844.71 2844.71
+"No Normalization" "CRIME" "Reproduction" "sumTime" 4176.9 4176.9 4176.9
+"Cashew" "Password1" "Reproduction" "hits" 62797 62797 62797
+"Cashew" "Password2" "Reproduction" "hits" 659804 659804 659804
+"Cashew" "Obscure" "Reproduction" "hits" 32443 32443 32443
+"Cashew" "CRIME" "Reproduction" "hits" 78289 78289 78289
+"No cache" "Password1" "Reproduction" "hits" NA NA NA
+"No cache" "Password2" "Reproduction" "hits" NA NA NA
+"No cache" "Obscure" "Reproduction" "hits" NA NA NA
+"No cache" "CRIME" "Reproduction" "hits" NA NA NA
+"No Normalization" "Password1" "Reproduction" "hits" 17547 17547 17547
+"No Normalization" "Password2" "Reproduction" "hits" 30448 30448 30448
+"No Normalization" "Obscure" "Reproduction" "hits" 1999 1999 1999
+"No Normalization" "CRIME" "Reproduction" "hits" 31884 31884 31884
+"Cashew" "Password1" "Reproduction" "misses" 10923 10923 10923
+"Cashew" "Password2" "Reproduction" "misses" 195476 195476 195476
+"Cashew" "Obscure" "Reproduction" "misses" 28555 28555 28555
+"Cashew" "CRIME" "Reproduction" "misses" 37722 37722 37722
+"No cache" "Password1" "Reproduction" "misses" NA NA NA
+"No cache" "Password2" "Reproduction" "misses" NA NA NA
+"No cache" "Obscure" "Reproduction" "misses" NA NA NA
+"No cache" "CRIME" "Reproduction" "misses" NA NA NA
+"No Normalization" "Password1" "Reproduction" "misses" 56173 56173 56173
+"No Normalization" "Password2" "Reproduction" "misses" 824832 824832 824832
+"No Normalization" "Obscure" "Reproduction" "misses" 58999 58999 58999
+"No Normalization" "CRIME" "Reproduction" "misses" 84127 84127 84127
+"Cashew" "Password1" "Reproduction" "hitsMissesRatio" 5.74906 5.74906 5.74906
+"Cashew" "Password2" "Reproduction" "hitsMissesRatio" 3.37537 3.37537 3.37537
+"Cashew" "Obscure" "Reproduction" "hitsMissesRatio" 1.13616 1.13616 1.13616
+"Cashew" "CRIME" "Reproduction" "hitsMissesRatio" 2.07542 2.07542 2.07542
+"No cache" "Password1" "Reproduction" "hitsMissesRatio" NA NA NA
+"No cache" "Password2" "Reproduction" "hitsMissesRatio" NA NA NA
+"No cache" "Obscure" "Reproduction" "hitsMissesRatio" NA NA NA
+"No cache" "CRIME" "Reproduction" "hitsMissesRatio" NA NA NA
+"No Normalization" "Password1" "Reproduction" "hitsMissesRatio" 0.312374 0.312374 0.312374
+"No Normalization" "Password2" "Reproduction" "hitsMissesRatio" 0.0369142 0.0369142 0.0369142
+"No Normalization" "Obscure" "Reproduction" "hitsMissesRatio" 0.0338819 0.0338819 0.0338819
+"No Normalization" "CRIME" "Reproduction" "hitsMissesRatio" 0.378998 0.378998 0.378998

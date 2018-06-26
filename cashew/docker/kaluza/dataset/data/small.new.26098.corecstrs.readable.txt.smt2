@@ -1,0 +1,6 @@
+(set-logic QF_S)
+(declare-fun var_0xINPUT_6552 () String)
+(declare-fun T0_3 () String)
+(declare-fun T1_3 () String)
+(assert (and (= (len var_0xINPUT_6552) 0) (= var_0xINPUT_6552 (concat T0_3 T1_3)) (= (len T0_3) 0) (not (in T1_3 /\?/))))
+(check-sat var_0xINPUT_6552)

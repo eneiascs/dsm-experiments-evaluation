@@ -1,0 +1,112 @@
+[
+  {
+    "hypothesis": "RH1",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "password",
+        "result": 5
+      },
+      {
+        "object": "password2",
+        "result": 5
+      },
+      {
+        "object": "obscure",
+        "result": 5
+      },
+      {
+        "object": "crime",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH2",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "password",
+        "result": 5
+      },
+      {
+        "object": "password2",
+        "result": 5
+      },
+      {
+        "object": "obscure",
+        "result": 5
+      },
+      {
+        "object": "crime",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH3",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "password",
+        "result": 5
+      },
+      {
+        "object": "password2",
+        "result": 5
+      },
+      {
+        "object": "obscure",
+        "result": 5
+      },
+      {
+        "object": "crime",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH4",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "password",
+        "result": 5
+      },
+      {
+        "object": "password2",
+        "result": 5
+      },
+      {
+        "object": "obscure",
+        "result": 5
+      },
+      {
+        "object": "crime",
+        "result": 5
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH5",
+    "results": [0, 0, 0, 0, 0, 1],
+    "objectResults": [
+      {
+        "object": "password",
+        "result": 5
+      },
+      {
+        "object": "password2",
+        "result": 5
+      },
+      {
+        "object": "obscure",
+        "result": 5
+      },
+      {
+        "object": "crime",
+        "result": 5
+      }
+    ]
+  }
+]
