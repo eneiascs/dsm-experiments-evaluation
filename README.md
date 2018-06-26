@@ -51,7 +51,7 @@ These script also generates the file `result-comparison.dat` with the comparison
 
 The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
 
-Please see [Tips and Tricks](#tips-and-tricks) section for common errors.
+Please see [Troubleshooting](#troubleshooting) section for common errors.
 
 #### Running the experiment with our tool ####
 
@@ -193,7 +193,7 @@ The steps to replicate our evaluation are: run the experiment with our tool, run
 * Run the script `replication.R` with the command `Rscript replication.R`. [R](https://www.r-project.org/) must be installed in the machine. The execution of this script will produce the `Rplot*.pdf` files and the result file `result-comparison.dat`. To join the plot files in a single pdf, run the command `pdfunite Rplot*.pdf Rplots.pdf`.
 
 
-# Tips and Tricks #
+# Troubleshooting #
 
 * If you recreated a docker image after running a container, use the command `docker-compose up --force-recreate` to recreate the container.
 
