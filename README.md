@@ -89,6 +89,20 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 #### Running the experiment with original scripts ####
 
+* Run the command `docker-compose up --force-recreate` inside folder `hylaa/docker/` to run the containers.
+
+* Connect to dohko-job container using the command `docker exec -it dohko-job /bin/bash`.
+
+* Prompt to experiment folder using `cd /opt/optimizations/`.
+
+* Run the experiment using the command `python run_opt_measurements.py`
+
+* The execution results will be written in folder `/opt/optimizations/out`.
+
+* After finishing execution, exit the container with `exit`.
+
+* Copy the results folder using the command `docker cp dohko-job:/opt/optimizations/out .`.
+
 #### Comparing the results ####
 
 * With the tool, Download the execution folder containing the results right-clicking on the folder and selecting the command `Download`. Then, unzip the downloaded file;
@@ -167,6 +181,21 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 
 #### Running the experiment with original scripts ####
+
+* Run the command `docker-compose up --force-recreate` inside folder `cashew/docker/` to run the containers.
+
+* Connect to dohko-job container using the command `docker exec -it dohko-job /bin/bash`.
+
+* Prompt to experiment folder using `cd /root/phab/green`.
+
+* Run the experiment using the command `./run.sh`
+
+* The execution results will be written in folder `/root/phab/green/results`.
+
+* After finishing execution, exit the container with `exit`.
+
+* Copy the results folder using the command `docker cp dohko-job:/root/phab/green/results .`.
+
 
 #### Comparing the results ####
 
@@ -248,6 +277,37 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 #### Running the experiment with original scripts ####
 
+* Run the command `docker-compose up --force-recreate` inside folder `cashew/docker/` to run the containers.
+
+* Connect to dohko-job container using the command `docker exec -it dohko-job /bin/bash`.
+
+* Prompt to experiment folder using `cd /root/phab/jpf-security/src/examples/cashew`.
+
+* Run the experiment using the command `./run.sh`
+
+* The execution results will be written in the file `results.dat` inside each folder.
+
+* After finishing execution, exit the container with `exit`.
+
+* Create a folder named results and a subfolder for each object;
+
+`mkdir -p results/password` 
+
+`mkdir -p results/password2` 
+
+`mkdir -p results/crime` 
+
+`mkdir -p results/obscure` 
+
+* Copy the results files:
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password/results.dat results/password/results.dat`.
+
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password2/results.dat results/password2/results.dat`.
+
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/crime/results.dat results/crime/results.dat`.
+
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/obscure/results.dat results/obscure/results.dat`.
+
 #### Comparing the results ####
 
 * With the tool, Download the execution folder containing the results right-clicking on the folder and selecting the command `Download`. Then, unzip the downloaded file;
@@ -278,9 +338,7 @@ Or use `docker rm -f $(docker ps -a |awk '{print $1}')` to remove all containers
 
 * `ERROR: for dsm-storage-mongo  Cannot start service dsm-storage-mongo: driver failed programming external connectivity on endpoint docker_dsm-storage-mongo_1 (e6085c9be8547960935838c90c14d781b5deabf6651e646df131b4d37bedd047): Bind for 0.0.0.0:27017 failed: port is already allocated`
 
-Docker binds ports from the container to the host. 
-
-This error happens when the host is already using the port. 
+Docker binds ports from the container to the host. This error happens when the host is already using the port. 
 
 Either stop the process using the port or bind the container port to another host port in `docker-compose.yml` file.
 
