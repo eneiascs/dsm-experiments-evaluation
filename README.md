@@ -15,8 +15,8 @@ __RQ 3.__ Can the proposed tool be used to enable sound automation of analysis f
 
 # Method #
 
-To address the aforementioned research questions, we selected three previously published experiments. 
-For each experiment, were performed two replications: one using our tool and another using the scripts provided by the authors. 
+To address the aforementioned research questions, we selected three previously published experiments ([Experiment 1](#experiment-1), [Experiment 2](#experiment-2), and [Experiment 3](#experiment-3)). 
+For each experiment, we performed two replications: one using our tool and another using the scripts provided by the authors. 
 Then, we compared the results obtained with and without our tool to assure that not only the tool can generate execution an analysis scripts, but also that these scripts can produce sound results. 
 With sound results we mean execution results that lead to the same conclusions as the original results.
 
