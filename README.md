@@ -1,5 +1,5 @@
 # Description #
-We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. The source-code of the tool can be found in this [repository](https://github.com/eneiascs/dsm-experiments). We also present instructions to replicate the experiments.
+We present the results of the empirical evaluation of A Domain-Specific Modelling approach supporting technology-oriented experiments. We also present instructions to replicate the experiments. The source-code of the tool can be found in this [repository](https://github.com/eneiascs/dsm-experiments). 
 
 
 # Objectives #
@@ -16,8 +16,9 @@ __RQ 3.__ Can the proposed tool be used to enable sound automation of analysis f
 # Method #
 
 To address the aforementioned research questions, we selected three previously published experiments. 
-For each experiment, were performed two replications: using our tool and using the scripts provided by the authors. 
-Then, we compared the results obtained with and without our tool to assure that not only the tool can generate execution an analysis scripts, but also that these scripts can produce sound results. With sound results we mean execution results that lead to the same conclusions as the original results.
+For each experiment, were performed two replications: one using our tool and another using the scripts provided by the authors. 
+Then, we compared the results obtained with and without our tool to assure that not only the tool can generate execution an analysis scripts, but also that these scripts can produce sound results. 
+With sound results we mean execution results that lead to the same conclusions as the original results.
 
 All the experiments were run on Google Cloud Platform on a virtual machine type n1-standard-4 running Ubuntu 16.10. The machine has 4 vCPUs and 15 GB RAM. To keep the execution environment as similar as possible, both replications were run inside the same Docker container and running in the same virtual machine.
 
@@ -58,12 +59,21 @@ For each of the four programs under analysis, they ran 1,000 symbolic-execution-
 # References #
 
 \[1] Aydin, A., Bang, L., Bultan, T., 2015. Automata-based model counting for string constraints, in: International Conference on Computer Aided Verification, pp. 255–272.
+
 \[2] Bak, S., Duggirala, P.S., 2017. Simulation-equivalent reachability of large linear systems with inputs, in: International Conference on Computer Aided Verification, Springer. pp. 401–420.
+
 \[3] Bang, L., Aydin, A., Phan, Q.S., Păsăreanu, C.S., Bultan, T., 2016. String analysis for side channels with segmented oracles, in: 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering, pp. 193– 204.
+
 \[4] Brennan, T., Tsiskaridze, N., Rosner, N., Aydin, A., Bultan, T., 2017. Constraint normalization and parameterized caching for quantitative program analysis, in: 11th Joint Meeting on Foundations of Software Engineering, pp. 535–546.
+
 \[5] Luu, L., Shinde, S., Saxena, P., Demsky, B., 2014. A model counter for constraints over unbounded strings, in: ACM SIGPLAN Notices, pp. 565–576.
+
 \[6] Păsăreanu, C.S., Visser, W., Bushnell, D., Geldenhuys, J., Mehlitz, P., Rungta, N., 2013. Symbolic pathfinder: integrating symbolic execution with model checking for java bytecode analysis. Automated  Software Engineering 20, 391–425.
+
 \[7] Rizzo, J. Duong, T., 2012. The crime attack. Ekoparty Security Conference.
+
 \[8] Saxena, P., Akhawe, D., Hanna, S., Mao, F., McCamant, S., Song, D., 2010. A symbolic execution framework for javascript, in: IEEE Symposium on Security and Privacy, pp. 513–528.
+
 \[9] Visser, W., Geldenhuys, J., Dwyer, M.B., 2012. Green: reducing, reusing and recycling constraints in program analysis, in: SIGSOFT FSE.
+
 \[10] Weir, M., Aggarwal, S., Collins, M., Stern, H., 2010. Testing metrics for password creation policies by attacking large sets of revealed passwords, in: 17th ACM conference on Computer and communications security, pp. 162–175.
