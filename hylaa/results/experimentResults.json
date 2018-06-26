@@ -1,0 +1,570 @@
+[
+  {
+    "hypothesis": "RH1",
+    "results": [0.3235, 0.0882, 0.3235, 0, 0.1176, 0.1471],
+    "objectResults": [
+      {
+        "object": "steps31",
+        "result": 5
+      },
+      {
+        "object": "steps40",
+        "result": 5
+      },
+      {
+        "object": "steps53",
+        "result": 5
+      },
+      {
+        "object": "steps68",
+        "result": 1
+      },
+      {
+        "object": "steps89",
+        "result": 5
+      },
+      {
+        "object": "steps116",
+        "result": 1
+      },
+      {
+        "object": "steps151",
+        "result": 1
+      },
+      {
+        "object": "steps197",
+        "result": 5
+      },
+      {
+        "object": "steps256",
+        "result": 0
+      },
+      {
+        "object": "steps332",
+        "result": 0
+      },
+      {
+        "object": "steps432",
+        "result": 0
+      },
+      {
+        "object": "steps562",
+        "result": 0
+      },
+      {
+        "object": "steps731",
+        "result": 0
+      },
+      {
+        "object": "steps951",
+        "result": 0
+      },
+      {
+        "object": "steps1236",
+        "result": 0
+      },
+      {
+        "object": "steps1607",
+        "result": 0
+      },
+      {
+        "object": "steps2089",
+        "result": 0
+      },
+      {
+        "object": "steps2716",
+        "result": 0
+      },
+      {
+        "object": "steps3531",
+        "result": 0
+      },
+      {
+        "object": "steps4590",
+        "result": 2
+      },
+      {
+        "object": "steps5967",
+        "result": 2
+      },
+      {
+        "object": "steps7757",
+        "result": 2
+      },
+      {
+        "object": "steps10085",
+        "result": 2
+      },
+      {
+        "object": "steps13110",
+        "result": 2
+      },
+      {
+        "object": "steps17043",
+        "result": 2
+      },
+      {
+        "object": "steps22157",
+        "result": 2
+      },
+      {
+        "object": "steps28804",
+        "result": 2
+      },
+      {
+        "object": "steps37445",
+        "result": 2
+      },
+      {
+        "object": "steps48679",
+        "result": 2
+      },
+      {
+        "object": "steps63282",
+        "result": 2
+      },
+      {
+        "object": "steps82267",
+        "result": 4
+      },
+      {
+        "object": "steps106948",
+        "result": 4
+      },
+      {
+        "object": "steps139032",
+        "result": 4
+      },
+      {
+        "object": "steps180742",
+        "result": 4
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH2",
+    "results": [0.5588, 0.0588, 0, 0, 0.1176, 0.2647],
+    "objectResults": [
+      {
+        "object": "steps31",
+        "result": 5
+      },
+      {
+        "object": "steps40",
+        "result": 0
+      },
+      {
+        "object": "steps53",
+        "result": 1
+      },
+      {
+        "object": "steps68",
+        "result": 5
+      },
+      {
+        "object": "steps89",
+        "result": 5
+      },
+      {
+        "object": "steps116",
+        "result": 5
+      },
+      {
+        "object": "steps151",
+        "result": 5
+      },
+      {
+        "object": "steps197",
+        "result": 5
+      },
+      {
+        "object": "steps256",
+        "result": 1
+      },
+      {
+        "object": "steps332",
+        "result": 0
+      },
+      {
+        "object": "steps432",
+        "result": 0
+      },
+      {
+        "object": "steps562",
+        "result": 0
+      },
+      {
+        "object": "steps731",
+        "result": 5
+      },
+      {
+        "object": "steps951",
+        "result": 0
+      },
+      {
+        "object": "steps1236",
+        "result": 5
+      },
+      {
+        "object": "steps1607",
+        "result": 5
+      },
+      {
+        "object": "steps2089",
+        "result": 0
+      },
+      {
+        "object": "steps2716",
+        "result": 0
+      },
+      {
+        "object": "steps3531",
+        "result": 0
+      },
+      {
+        "object": "steps4590",
+        "result": 0
+      },
+      {
+        "object": "steps5967",
+        "result": 0
+      },
+      {
+        "object": "steps7757",
+        "result": 0
+      },
+      {
+        "object": "steps10085",
+        "result": 0
+      },
+      {
+        "object": "steps13110",
+        "result": 0
+      },
+      {
+        "object": "steps17043",
+        "result": 0
+      },
+      {
+        "object": "steps22157",
+        "result": 0
+      },
+      {
+        "object": "steps28804",
+        "result": 0
+      },
+      {
+        "object": "steps37445",
+        "result": 0
+      },
+      {
+        "object": "steps48679",
+        "result": 0
+      },
+      {
+        "object": "steps63282",
+        "result": 0
+      },
+      {
+        "object": "steps82267",
+        "result": 4
+      },
+      {
+        "object": "steps106948",
+        "result": 4
+      },
+      {
+        "object": "steps139032",
+        "result": 4
+      },
+      {
+        "object": "steps180742",
+        "result": 4
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH3",
+    "results": [0.2941, 0, 0.5588, 0, 0.1176, 0.0294],
+    "objectResults": [
+      {
+        "object": "steps31",
+        "result": 5
+      },
+      {
+        "object": "steps40",
+        "result": 0
+      },
+      {
+        "object": "steps53",
+        "result": 0
+      },
+      {
+        "object": "steps68",
+        "result": 0
+      },
+      {
+        "object": "steps89",
+        "result": 0
+      },
+      {
+        "object": "steps116",
+        "result": 0
+      },
+      {
+        "object": "steps151",
+        "result": 0
+      },
+      {
+        "object": "steps197",
+        "result": 0
+      },
+      {
+        "object": "steps256",
+        "result": 0
+      },
+      {
+        "object": "steps332",
+        "result": 0
+      },
+      {
+        "object": "steps432",
+        "result": 0
+      },
+      {
+        "object": "steps562",
+        "result": 2
+      },
+      {
+        "object": "steps731",
+        "result": 2
+      },
+      {
+        "object": "steps951",
+        "result": 2
+      },
+      {
+        "object": "steps1236",
+        "result": 2
+      },
+      {
+        "object": "steps1607",
+        "result": 2
+      },
+      {
+        "object": "steps2089",
+        "result": 2
+      },
+      {
+        "object": "steps2716",
+        "result": 2
+      },
+      {
+        "object": "steps3531",
+        "result": 2
+      },
+      {
+        "object": "steps4590",
+        "result": 2
+      },
+      {
+        "object": "steps5967",
+        "result": 2
+      },
+      {
+        "object": "steps7757",
+        "result": 2
+      },
+      {
+        "object": "steps10085",
+        "result": 2
+      },
+      {
+        "object": "steps13110",
+        "result": 2
+      },
+      {
+        "object": "steps17043",
+        "result": 2
+      },
+      {
+        "object": "steps22157",
+        "result": 2
+      },
+      {
+        "object": "steps28804",
+        "result": 2
+      },
+      {
+        "object": "steps37445",
+        "result": 2
+      },
+      {
+        "object": "steps48679",
+        "result": 2
+      },
+      {
+        "object": "steps63282",
+        "result": 2
+      },
+      {
+        "object": "steps82267",
+        "result": 4
+      },
+      {
+        "object": "steps106948",
+        "result": 4
+      },
+      {
+        "object": "steps139032",
+        "result": 4
+      },
+      {
+        "object": "steps180742",
+        "result": 4
+      }
+    ]
+  },
+  {
+    "hypothesis": "RH4",
+    "results": [0.0588, 0.6765, 0, 0.1176, 0, 0.1471],
+    "objectResults": [
+      {
+        "object": "steps31",
+        "result": 5
+      },
+      {
+        "object": "steps40",
+        "result": 5
+      },
+      {
+        "object": "steps53",
+        "result": 5
+      },
+      {
+        "object": "steps68",
+        "result": 0
+      },
+      {
+        "object": "steps89",
+        "result": 1
+      },
+      {
+        "object": "steps116",
+        "result": 1
+      },
+      {
+        "object": "steps151",
+        "result": 5
+      },
+      {
+        "object": "steps197",
+        "result": 5
+      },
+      {
+        "object": "steps256",
+        "result": 1
+      },
+      {
+        "object": "steps332",
+        "result": 0
+      },
+      {
+        "object": "steps432",
+        "result": 1
+      },
+      {
+        "object": "steps562",
+        "result": 1
+      },
+      {
+        "object": "steps731",
+        "result": 1
+      },
+      {
+        "object": "steps951",
+        "result": 1
+      },
+      {
+        "object": "steps1236",
+        "result": 1
+      },
+      {
+        "object": "steps1607",
+        "result": 1
+      },
+      {
+        "object": "steps2089",
+        "result": 1
+      },
+      {
+        "object": "steps2716",
+        "result": 1
+      },
+      {
+        "object": "steps3531",
+        "result": 1
+      },
+      {
+        "object": "steps4590",
+        "result": 1
+      },
+      {
+        "object": "steps5967",
+        "result": 1
+      },
+      {
+        "object": "steps7757",
+        "result": 1
+      },
+      {
+        "object": "steps10085",
+        "result": 1
+      },
+      {
+        "object": "steps13110",
+        "result": 1
+      },
+      {
+        "object": "steps17043",
+        "result": 1
+      },
+      {
+        "object": "steps22157",
+        "result": 1
+      },
+      {
+        "object": "steps28804",
+        "result": 1
+      },
+      {
+        "object": "steps37445",
+        "result": 1
+      },
+      {
+        "object": "steps48679",
+        "result": 1
+      },
+      {
+        "object": "steps63282",
+        "result": 1
+      },
+      {
+        "object": "steps82267",
+        "result": 3
+      },
+      {
+        "object": "steps106948",
+        "result": 3
+      },
+      {
+        "object": "steps139032",
+        "result": 3
+      },
+      {
+        "object": "steps180742",
+        "result": 3
+      }
+    ]
+  }
+]

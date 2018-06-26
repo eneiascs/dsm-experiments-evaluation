@@ -1,0 +1,5501 @@
+  |                                                                         |                                                                 |   0%
+  ordinary text without R code
+
+
+label: setup (with options) 
+List of 4
+ $ include: logi FALSE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: overview_time (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |                                                                 |   1%
+  ordinary text without R code
+
+
+label: steps31 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |.                                                                |   1%
+label: steps40 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps53 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps68 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |.                                                                |   2%
+label: steps89 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps116 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps151 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps197 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |..                                                               |   2%
+label: steps256 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |..                                                               |   3%
+label: steps332 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps432 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps562 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps731 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps951 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |..                                                               |   4%
+  ordinary text without R code
+
+
+label: steps1236 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |...                                                              |   4%
+label: steps1607 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps2089 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps2716 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |...                                                              |   5%
+label: steps3531 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps4590 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps5967 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps7757 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |....                                                             |   5%
+label: steps10085 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |....                                                             |   6%
+  ordinary text without R code
+
+
+label: steps13110 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps17043 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps22157 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps28804 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps37445 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |....                                                             |   7%
+  ordinary text without R code
+
+
+label: steps48679 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps63282 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                         |.....                                                            |   7%
+  ordinary text without R code
+
+
+label: steps82267 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps106948 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+  |                                                                         |.....                                                            |   8%
+label: steps139032 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: steps180742 (with options) 
+List of 4
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: overview_RH1 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......                                                           |   9%
+  ordinary text without R code
+
+
+label: RH1_Warm_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......                                                           |  10%
+label: RH1_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......                                                          |  10%
+  ordinary text without R code
+
+
+label: RH1_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......                                                          |  11%
+label: RH1_Warm_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........                                                         |  12%
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........                                                         |  13%
+label: RH1_Warm_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........                                                        |  13%
+  ordinary text without R code
+
+
+label: RH1_Warm_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........                                                        |  14%
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........                                                        |  15%
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  15%
+label: RH1_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........                                                       |  16%
+label: RH1_Hylaa_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........                                                      |  16%
+label: RH1_Hylaa_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........                                                      |  17%
+  ordinary text without R code
+
+
+label: RH1_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........                                                      |  18%
+label: RH1_Hylaa_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............                                                     |  18%
+label: RH1_Warm_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............                                                     |  19%
+label: RH1_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  19%
+label: RH1_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............                                                    |  20%
+  ordinary text without R code
+
+
+label: RH1_Warm_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............                                                    |  21%
+label: RH1_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............                                                   |  21%
+  ordinary text without R code
+
+
+label: RH1_Warm_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............                                                   |  22%
+  ordinary text without R code
+
+
+label: RH1_Warm_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............                                                  |  22%
+  ordinary text without R code
+
+
+label: RH1_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............                                                  |  23%
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............                                                  |  24%
+label: RH1_Warm_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................                                                 |  24%
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................                                                 |  25%
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................                                                |  25%
+  ordinary text without R code
+
+  |                                                                         |.................                                                |  26%
+label: RH1_Warm_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.................                                                |  27%
+label: RH1_Hylaa_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..................                                               |  27%
+label: RH1_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................                                               |  28%
+  ordinary text without R code
+
+
+label: RH1_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...................                                              |  29%
+label: RH1_Hylaa_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Warm_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................                                              |  30%
+  ordinary text without R code
+
+
+label: RH1_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_Hylaa_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |....................                                             |  30%
+label: RH1_Warm_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH1_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: unnamed-chunk-1 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |....................                                             |  31%
+   inline R code fragments
+
+
+label: RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: overview_RH2 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................                                            |  32%
+label: RH2_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................                                            |  33%
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  33%
+label: RH2_Decomp_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  34%
+label: RH2_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................                                           |  35%
+label: RH2_Hylaa_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................                                          |  35%
+  ordinary text without R code
+
+
+label: RH2_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................                                          |  36%
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................                                         |  36%
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........................                                         |  37%
+label: RH2_Hylaa_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................                                         |  38%
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  38%
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................                                        |  39%
+  ordinary text without R code
+
+
+label: RH2_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................                                       |  39%
+  ordinary text without R code
+
+
+label: RH2_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........................                                       |  40%
+label: RH2_Decomp_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................                                       |  41%
+  ordinary text without R code
+
+
+label: RH2_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................                                      |  41%
+label: RH2_Decomp_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................                                      |  42%
+label: RH2_Decomp_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............................                                     |  42%
+label: RH2_Hylaa_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............................                                     |  43%
+label: RH2_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............................                                     |  44%
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................                                    |  44%
+label: RH2_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................                                    |  45%
+label: RH2_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..............................                                   |  45%
+label: RH2_Decomp_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................                                   |  46%
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................                                   |  47%
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................                                  |  47%
+  ordinary text without R code
+
+
+label: RH2_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................                                  |  48%
+label: RH2_Hylaa_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |................................                                 |  49%
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................                                 |  50%
+label: RH2_Hylaa_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................................                                |  50%
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.................................                                |  51%
+label: RH2_Decomp_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................                               |  52%
+  ordinary text without R code
+
+
+label: RH2_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Decomp_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..................................                               |  53%
+label: RH2_Decomp_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_Hylaa_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH2_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................                              |  53%
+  ordinary text without R code
+
+
+label: unnamed-chunk-2 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+
+label: RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................                              |  54%
+  ordinary text without R code
+
+
+label: overview_RH3 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................                              |  55%
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  55%
+label: RH3_Hylaa_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |....................................                             |  56%
+label: RH3_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  56%
+label: RH3_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.....................................                            |  57%
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................                            |  58%
+label: RH3_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................................                           |  58%
+label: RH3_Basic_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................................                           |  59%
+label: RH3_Hylaa_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................                          |  59%
+label: RH3_Hylaa_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.......................................                          |  60%
+  ordinary text without R code
+
+
+label: RH3_Basic_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................                          |  61%
+label: RH3_Hylaa_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................                         |  61%
+  ordinary text without R code
+
+
+label: RH3_Basic_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................                         |  62%
+  ordinary text without R code
+
+
+label: RH3_Basic_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................................                        |  62%
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................................                        |  63%
+  ordinary text without R code
+
+
+label: RH3_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.........................................                        |  64%
+label: RH3_Basic_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................                       |  64%
+  ordinary text without R code
+
+
+label: RH3_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................                       |  65%
+  ordinary text without R code
+
+
+label: RH3_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................................                      |  65%
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  66%
+label: RH3_Basic_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................................                      |  67%
+label: RH3_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............................................                     |  67%
+label: RH3_Hylaa_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............................................                     |  68%
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.............................................                    |  69%
+label: RH3_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................................                    |  70%
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..............................................                   |  70%
+label: RH3_Basic_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..............................................                   |  71%
+  ordinary text without R code
+
+
+label: RH3_Basic_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................                  |  72%
+label: RH3_Hylaa_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................................                  |  73%
+  ordinary text without R code
+
+
+label: RH3_Basic_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................................                 |  73%
+label: RH3_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................................                 |  74%
+label: RH3_Hylaa_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................................                 |  75%
+label: RH3_Basic_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................................................                |  75%
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Basic_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH3_Hylaa_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.................................................                |  76%
+  ordinary text without R code
+
+
+label: RH3_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: unnamed-chunk-3 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+
+label: RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................................               |  76%
+  ordinary text without R code
+
+
+label: overview_RH4 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..................................................               |  77%
+label: RH4_Hylaa_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps31 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..................................................               |  78%
+  ordinary text without R code
+
+
+label: RH4_steps40 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................................              |  78%
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps53 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...................................................              |  79%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps68 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................................             |  79%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |....................................................             |  80%
+label: RH4_steps89 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps116 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |....................................................             |  81%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  81%
+label: RH4_steps151 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.....................................................            |  82%
+label: RH4_steps197 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps256 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................................................           |  82%
+label: RH4_Hylaa_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |......................................................           |  83%
+label: RH4_NoInput_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps332 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps432 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |......................................................           |  84%
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  84%
+label: RH4_NoInput_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps562 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.......................................................          |  85%
+label: RH4_NoInput_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps731 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |........................................................         |  85%
+label: RH4_steps951 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  86%
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps1236 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |........................................................         |  87%
+  ordinary text without R code
+
+
+label: RH4_steps1607 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.........................................................        |  87%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps2089 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |.........................................................        |  88%
+label: RH4_Hylaa_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps2716 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |..........................................................       |  89%
+  ordinary text without R code
+
+
+label: RH4_steps3531 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps4590 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..........................................................       |  90%
+label: RH4_Hylaa_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps5967 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...........................................................      |  90%
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...........................................................      |  91%
+label: RH4_steps7757 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps10085 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |............................................................     |  92%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps13110 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |............................................................     |  93%
+label: RH4_steps17043 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................................................    |  93%
+  ordinary text without R code
+
+
+label: RH4_steps22157 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................................................    |  94%
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps28804 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps37445 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |.............................................................    |  95%
+  ordinary text without R code
+
+  |                                                                         |..............................................................   |  95%
+label: RH4_Hylaa_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps48679 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |..............................................................   |  96%
+label: RH4_NoInput_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps63282 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................................  |  96%
+label: RH4_NoInput_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps82267 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+  |                                                                         |...............................................................  |  97%
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps106948 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |...............................................................  |  98%
+label: RH4_NoInput_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................................................ |  98%
+label: RH4_steps139032 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_Hylaa_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_NoInput_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+
+label: RH4_steps180742 (with options) 
+List of 5
+ $ include: logi TRUE
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr " "
+
+
+  ordinary text without R code
+
+  |                                                                         |................................................................ |  99%
+label: unnamed-chunk-4 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+
+label: unnamed-chunk-5 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+
+label: unnamed-chunk-6 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+  |                                                                         |.................................................................|  99%
+label: unnamed-chunk-7 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+
+   inline R code fragments
+
+
+label: unnamed-chunk-8 (with options) 
+List of 4
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ indent : chr "\t"
+
+  |                                                                         |.................................................................| 100%
+   inline R code fragments
+
+
+label: unnamed-chunk-9 (with options) 
+List of 3
+ $ echo   : logi TRUE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+label: unnamed-chunk-10 (with options) 
+List of 3
+ $ echo   : logi FALSE
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+  ordinary text without R code
+
+
+[1] "hylaa.tex"

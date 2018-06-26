@@ -1,0 +1,111 @@
+Experiment hylaaOptimization {
+
+	 Research Hypotheses {
+	  
+	  	RH1 {time Hylaa = Warm description "Runtime time for Hylaa is equals than runtime time for Warm" },
+	  	RH2 {time Hylaa = Decomp description "Runtime time for Hylaa is equals than runtime time for Decomp"},
+		RH3 {time Hylaa = Basic description "Runtime time for Hylaa is equals than runtime time for Basic"},
+		RH4 {time Hylaa = NoInput description "Runtime time for Hylaa is equals than runtime time for NoInput"}   	 
+	  
+	  }
+	   
+	  Experimental Design {
+	     runs 10 
+
+	    }    
+	    Dependent Variables {
+	      time { description "Runtime" scaleType Absolute unit "seconds" instrument timeInstrument }
+	 }    
+	  
+	  Instruments {
+	      timeInstrument {command  "/usr/bin/python -u /opt/optimizations/time.py"  valueExpression "runtime:"}
+	  }
+	 Factors { 
+	 	optimization { description "Optimization" scaleType Nominal}
+	 	}  
+	 	
+	 	Treatments { 
+	         Hylaa description "Hylaa"   factor optimization parameters {params ""}  execution hylaaTool,
+	 	 Warm description "Warm" factor optimization parameters {params "settings.opt_decompose_lp=False"} execution hylaaTool,
+	 	 Decomp description "Decomp" factor optimization parameters {params "settings.opt_warm_start_lp=False"} execution hylaaTool,
+	 	 Basic description "Basic" factor optimization parameters {params "settings.opt_warm_start_lp=False settings.opt_decompose_lp=False"} execution hylaaTool,
+	 	 NoInput description "No Input" factor optimization parameters {params ""} execution hylaaToolNoInput	 
+	 }
+	 Objects {description "Number of steps" scaleType Logarithmic { 
+    	steps31 {description "31 steps" value "31"  parameters {num_steps "31", step_size "0.200000000"}},
+      	 steps40 {description "40 steps" value "40" parameters {num_steps "40", step_size "0.153846154"}}, 
+        steps53 {description "53 steps" value "53" parameters {num_steps "53", step_size "0.118343195"}},
+        steps68 {description "68 steps" value "68" parameters {num_steps "68", step_size "0.091033227"}},
+        steps89 {description "89 steps" value "89"  parameters {num_steps "89", step_size "0.070025559"}},
+        steps116 {description "116 steps" value "116" parameters {num_steps "116", step_size "0.053865815"}},
+        steps151 {description "151 steps" value "151" parameters {num_steps "151", step_size "0.041435242"}},
+        steps197 {description "197 steps" value "197" parameters {num_steps "197", step_size "0.031873263"}},
+        steps256 {description "256 steps" value "256" parameters {num_steps "256", step_size "0.024517895"}},
+        steps332 {description "332 steps" value "332" parameters {num_steps "332", step_size "0.018859919"}},
+        steps432 {description "432 steps" value "432" parameters {num_steps "432", step_size "0.014507630"}},
+        steps562 {description "562 steps" value "562" parameters {num_steps "562", step_size "0.011159715"}},
+        steps731 {description "731 steps" value "731" parameters {num_steps "731", step_size "0.008584396"}},
+        steps951 {description "951 steps" value "951" parameters {num_steps "951", step_size "0.006603382"}},
+        steps1236 {description "1236 steps" value "1236" parameters {num_steps "1236", step_size "0.005079525"}},
+    	steps1607 {description "1607 steps" value "1607" parameters {num_steps "1607", step_size "0.003907327"}},
+        steps2089 {description "2089 steps" value "2089" parameters {num_steps "2089", step_size "0.003005636"}},
+        steps2716 {description "2716 steps" value "2716" parameters {num_steps "2716", step_size "0.002312028"}},
+        steps3531 {description "3531 steps" value "3531" parameters {num_steps "3531", step_size "0.001778483"}},
+        steps4590 {description "4590 steps" value "4590" parameters {num_steps "4590", step_size "0.001368064"}},       
+        steps5967 {description "5967 steps" value "5967" parameters {num_steps "5967", step_size "0.001052357"}},
+        steps7757 {description "7757 steps" value "7757" parameters {num_steps "7757", step_size "0.000809505"}},
+        steps10085 {description "10085 steps" value "10085" parameters {num_steps "10085", step_size "0.000622696"}},
+        steps13110 {description "13110 steps" value "13110" parameters {num_steps "13110", step_size "0.000478997"}},
+        steps17043 {description "17043 steps" value "17043" parameters {num_steps "17043", step_size "0.000368459"}},
+        steps22157 {description "22157 steps" value "22157" parameters {num_steps "22157", step_size "0.000283430"}},
+        steps28804 {description "28804 steps" value "28804" parameters {num_steps "28804", step_size "0.000218023"}},
+        steps37445 {description "37445 steps" value "37445" parameters {num_steps "37445", step_size "0.000167710"}},
+        steps48679 {description "48679 steps" value "48679" parameters {num_steps "48679", step_size "0.000129008"}},
+        steps63282 {description "63282 steps" value "63282" parameters {num_steps "63282", step_size "0.000099237"}},
+        steps82267 {description "82267 steps" value "82267" parameters {num_steps "82267", step_size "0.000076336"}},
+        steps106948 {description "106948 steps" value "106948" parameters {num_steps "106948", step_size "0.000058720"}},
+        steps139032 {description "139032 steps" value "139032" parameters {num_steps "139032", step_size "0.000045169"}},
+        steps180742 {description "180742 steps" value "180742" parameters {num_steps "180742", step_size "0.000034746"}}
+  
+	          
+	    }
+	     
+	 }
+	Executions { 
+	    hylaaTool { 
+	 	   command "/usr/bin/python -u /opt/hyst-1.5/src/hybridpy/hybridpy/tool_hylaa.pyc /opt/models/${treatment.name}/${object.parameter.num_steps}.py -" 
+	 	   timeout 15
+	 	   
+	 	   preprocessing {
+	 	        mkdir{command "mkdir -p /opt/models/${treatment.name}"},
+				hyst{command "java -jar /opt/hyst-1.5/src/Hyst.jar -i /opt/optimizations/io.xml -o /opt/models/${treatment.name}/${object.parameter.num_steps}.py -tool hylaa '-settings settings.print_output=False ${treatment.parameter.params} -step ${object.parameter.step_size}'"}
+			}
+	 	   
+ 
+	 		postprocessing {
+	 	       rm{command "rm -f /opt/models/${treatment.name}/${object.parameter.num_steps}.py"}
+	 	   }
+ 
+	 	},
+	 	hylaaToolNoInput { 
+	 	    command "/usr/bin/python -u /opt/hyst-1.5/src/hybridpy/hybridpy/tool_hylaa.pyc /opt/models/${treatment.name}/${object.parameter.num_steps}.py -" 
+	 	   timeout 15
+	 	    
+	 	    preprocessing {
+	 	        mkdir{command "mkdir -p /opt/models/${treatment.name}"},
+				hyst{command "java -jar /opt/hyst-1.5/src/Hyst.jar -i /opt/optimizations/ha.xml -o /opt/models/${treatment.name}/${object.parameter.num_steps}.py -tool hylaa '-settings settings.print_output=False ${treatment.parameter.params} -step ${object.parameter.step_size}'"}
+	 	   }
+ 
+	 	   postprocessing {
+	 	       rm{command "rm -f /opt/models/${treatment.name}/${object.parameter.num_steps}.py"}
+	 	   }
+	 		
+	 	}
+	 		
+	}
+    Infrastructure {
+	    user{
+	 	    username "vagrant"
+		}
+    }
+}
