@@ -97,7 +97,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * Run the experiment using the command `python run_opt_measurements.py`
 
-* The execution results will be written in folder `/opt/optimizations/out`.
+* The execution results will be written into folder `/opt/optimizations/out`.
 
 * After finishing execution, exit the container with `exit`.
 
@@ -189,7 +189,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * Run the experiment using the command `./run.sh`
 
-* The execution results will be written in folder `/root/phab/green/results`.
+* The execution results will be written into folder `/root/phab/green/results`.
 
 * After finishing execution, exit the container with `exit`.
 
@@ -283,7 +283,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * Run the experiment using the command `./run.sh`
 
-* The execution results will be written in the file `results.dat` inside each folder.
+* The execution results will be written into the file `results.dat` inside each folder.
 
 * After finishing execution, exit the container with `exit`.
 
