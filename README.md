@@ -131,7 +131,38 @@ The steps to replicate our evaluation are: run the experiment with our tool, run
 
 #### Running the experiment with our tool ####
 
+* The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) but using `cahew/docker/` folder and `cashew/orbits/cashew-orbits.exp` specification file.
 
+* Prompt to folder `cahew/docker/`.
+
+* If necessary, change `cpuset` and `mem_limit` according to your machine resources in `docker-compose.yml` and `.env` files. We use the pre-built image `eneiascs/cashew`. This image was built over the Dohko image `eneiascs/dohko-job`. If you want to recreate this image, use the files contained in `cahew/docker/`.
+
+* Run the command `docker-compose up --force-recreate` inside folder `cahew/docker/`.
+
+* After the tool is running, open the URL [http://localhost/autoexp/texteditor](http://localhost/autoexp/texteditor), or replace `localhost` with the IP address, if accessing from another machine.
+The tool is an Eclipse RAP application. For this reason, it looks like the Eclipse IDE. 
+
+* Click on `File`, `New` then `Project`.
+Insert the project name, and then click on `Finish`.
+
+* Right-click on the project folder, then select `New`, then `Model`.
+
+* Insert the model name `cashew-orbits.exp`, then click on `Finish`.
+
+* Double-click the model file, then use the editor to create the model. In the editor, paste the contents of file `cashew/orbits/cashew-orbits.exp`. 
+
+* If you want to generate the execution and analysis scripts without running them, right-click on the model file, then click on `Generate`. The generated files are placed in the folder `src-gen`.
+
+* To run commands from the pop-up menu, the focus must be on tab `Project Explorer`. If the focus is on the editor, first click on the `Project Explorer` tab and then run the commands.
+
+* To run the experiment, right-click on the model file, then click on `Generate and Run`. This command generate the scripts and run them. First, the execution script is executed using Dohko. While running, the execution status is presented to the user. After the execution finishes, the analysis script is executed.
+Each execution creates a folder inside the folder `executions`. The folder and the generated files are copied to this folder. The execution results are written to `data.json` file. The analysis script generates a pdf file with the analysis report with the same name as the model file (`cashew-orbits.pdf`). The editor cannot open pdf files. However, you can download it using the menu `Download`.
+
+* To re-open the execution status while the applications are running, right-click on the execution folder (subfolder of executions), then click on `Execution Status`.
+
+* The analysis script is automatically executed after execution finishes. However, if you want to re-run it, right-click on the execution folder (subfolder of executions), then click on `Run Analysis`.
+
+* After finishing execution and analysis, you can download the results by right-clicking on the execution folder and then selecting the command `Download`.
 
 
 
@@ -179,6 +210,41 @@ These script also generates the file `result-comparison.dat` with the comparison
 The steps to replicate our evaluation are: run the experiment with our tool, run the experiment using the original scripts, and compare the results.
 
 #### Running the experiment with our tool ####
+
+* The procedure to run this is experiment is very similar to [Experiment 1](#experiment-1) and [Experiment 2](#experiment-2) but using `cahew/docker/` folder and `cashew/security/cashew-security.exp` specification file.
+
+* Prompt to folder `cahew/docker/`.
+
+* If necessary, change `cpuset` and `mem_limit` according to your machine resources in `docker-compose.yml` and `.env` files. We use the pre-built image `eneiascs/cashew`. This image was built over the Dohko image `eneiascs/dohko-job`. If you want to recreate this image, use the files contained in `cahew/docker/`.
+
+* Run the command `docker-compose up --force-recreate` inside folder `cahew/docker/`.
+
+* After the tool is running, open the URL [http://localhost/autoexp/texteditor](http://localhost/autoexp/texteditor), or replace `localhost` with the IP address, if accessing from another machine.
+The tool is an Eclipse RAP application. For this reason, it looks like the Eclipse IDE. 
+
+* Click on `File`, `New` then `Project`.
+Insert the project name, and then click on `Finish`.
+
+* Right-click on the project folder, then select `New`, then `Model`.
+
+* Insert the model name `cashew-orbits.exp`, then click on `Finish`.
+
+* Double-click the model file, then use the editor to create the model. In the editor, paste the contents of file `cashew/security/cashew-security.exp`. 
+
+* If you want to generate the execution and analysis scripts without running them, right-click on the model file, then click on `Generate`. The generated files are placed in the folder `src-gen`.
+
+* To run commands from the pop-up menu, the focus must be on tab `Project Explorer`. If the focus is on the editor, first click on the `Project Explorer` tab and then run the commands.
+
+* To run the experiment, right-click on the model file, then click on `Generate and Run`. This command generate the scripts and run them. First, the execution script is executed using Dohko. While running, the execution status is presented to the user. After the execution finishes, the analysis script is executed.
+Each execution creates a folder inside the folder `executions`. The folder and the generated files are copied to this folder. The execution results are written to `data.json` file. The analysis script generates a pdf file with the analysis report with the same name as the model file (`cashew-security.pdf`). The editor cannot open pdf files. However, you can download it using the menu `Download`.
+
+* To re-open the execution status while the applications are running, right-click on the execution folder (subfolder of executions), then click on `Execution Status`.
+
+* The analysis script is automatically executed after execution finishes. However, if you want to re-run it, right-click on the execution folder (subfolder of executions), then click on `Run Analysis`.
+
+* After finishing execution and analysis, you can download the results by right-clicking on the execution folder and then selecting the command `Download`.
+
+
 
 #### Running the experiment with original scripts ####
 
