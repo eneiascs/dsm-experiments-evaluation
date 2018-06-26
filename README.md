@@ -91,9 +91,9 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * Run the command `docker-compose up --force-recreate` inside folder `hylaa/docker/` to run the containers.
 
-* Connect to dohko-job container using the command `docker exec -it dohko-job /bin/bash`.
+* Connect to dohko-job container using the command `docker exec -it dohko-job /bin/bash`
 
-* Prompt to experiment folder using `cd /opt/optimizations/`.
+* Prompt to experiment folder using `cd /opt/optimizations/`
 
 * Run the experiment using the command `python run_opt_measurements.py`
 
@@ -101,7 +101,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * After finishing execution, exit the container with `exit`.
 
-* Copy the results folder using the command `docker cp dohko-job:/opt/optimizations/out .`.
+* Copy the results folder using the command `docker cp dohko-job:/opt/optimizations/out .`
 
 #### Comparing the results ####
 
@@ -193,7 +193,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * After finishing execution, exit the container with `exit`.
 
-* Copy the results folder using the command `docker cp dohko-job:/root/phab/green/results .`.
+* Copy the results folder using the command `docker cp dohko-job:/root/phab/green/results .`
 
 
 #### Comparing the results ####
@@ -287,7 +287,7 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 
 * After finishing execution, exit the container with `exit`.
 
-* Create a folder named results and a subfolder for each object;
+* Create a folder named results and a subfolder for each object:
 
 `mkdir -p results/password` 
 
@@ -298,13 +298,14 @@ Each execution creates a folder inside the folder `executions`. The folder and t
 `mkdir -p results/obscure` 
 
 * Copy the results files:
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password/results.dat results/password/results.dat`.
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password2/results.dat results/password2/results.dat`.
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password/results.dat results/password/results.dat`
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/crime/results.dat results/crime/results.dat`.
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/password2/results.dat results/password2/results.dat`
 
-`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/obscure/results.dat results/obscure/results.dat`.
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/crime/results.dat results/crime/results.dat`
+
+`docker cp dohko-job:/root/phab/jpf-security/src/examples/cashew/obscure/results.dat results/obscure/results.dat`
 
 #### Comparing the results ####
 
