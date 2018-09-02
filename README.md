@@ -15,7 +15,19 @@ __RQ 3.__ Can the proposed tool be used to enable sound automation of analysis f
 
 # Method #
 
-To address the aforementioned research questions, we selected three previously published experiments ([Experiment 1](#experiment-1), [Experiment 2](#experiment-2), and [Experiment 3](#experiment-3)). 
+To address the aforementioned research questions, we selected experiments meeting the following criteria:
+
+* The experiment is reported in a paper published in a venue explicitly requiring reproducibility as part of the evaluation process or highlighting this fact in accepted papers. The venues considered were International Conference on Computer Aided Verification (CAV) and Joint Meeting on Foundations of Software Engineering (FSE).
+
+* The experiment is technology-oriented, that is, a software, instead of a person, applies treatments to objects.
+
+* Replication is completely documented.
+
+* Every software, script, and artifact that are required to replicate the experiment is publicly available.
+
+* Each hypothesis of the experiment compares two treatments of the same factor at a time, or the experiment can be decomposed in pairwise comparisons.
+
+After applying the aforementioned criteria, we found the experiments presented in [Experiment Set](#experiment-set). From this set, we randomly selected three experiments ([Experiment 1](#experiment-1), [Experiment 2](#experiment-2), and [Experiment 3](#experiment-3)). 
 For each experiment, we performed two replications: one using our tool and another using the scripts provided by the authors. 
 Then, we compared the results obtained with and without our tool to assure that not only the tool can generate execution an analysis scripts, but also that these scripts can produce sound results. 
 With sound results we mean execution results that lead to the same conclusions as the original results.
@@ -345,6 +357,36 @@ Either stop the process using the port or bind the container port to another hos
 
 * If unexpected errors occurr in the tool, try to recreate the containers using `docker-compose up --force-recreate`.
 
+# Experiment Set #
+After applying the criteria defined in [Method](#method), we found the following experiments:
+
+* Abate, A., Bessa, I., Cattaruzza, D., Cordeiro, L., David, C., Kesseli, P., ... & Polgreen, E. (2017, July). Automated formal synthesis of digital controllers for state-space physical plants. In International Conference on Computer Aided Verification (pp. 462-482). Springer, Cham.
+
+* Bagherzadeh, M., Hili, N., & Dingel, J. (2017, August). Model-level, platform-independent debugging in the context of the model-driven development of real-time systems. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 419-430). ACM.
+
+* Bak, S., & Duggirala, P. S. (2017, July). Simulation-equivalent reachability of large linear systems with inputs. In International Conference on Computer Aided Verification (pp. 401-420). Springer, Cham.
+
+* Brennan, T., Tsiskaridze, N., Rosner, N., Aydin, A., & Bultan, T. (2017, August). Constraint normalization and parameterized caching for quantitative program analysis. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 535-546). ACM.
+
+* Brihaye, T., Geeraerts, G., Ho, H. M., & Monmege, B. (2017, July). MightyL: A compositional translation from MITL to timed automata. In International Conference on Computer Aided Verification (pp. 421-440). Springer, Cham.
+
+* Devroey, X., Perrouin, G., Cordy, M., Samih, H., Legay, A., Schobbens, P. Y., & Heymans, P. (2017). Statistical prioritization for software product line testing: an experience report. Software & Systems Modeling, 16(1), 153-171.
+
+* Devroey, X., Perrouin, G., Legay, A., Schobbens, P. Y., & Heymans, P. (2016, January). Search-based similarity-driven behavioural SPL testing. In Proceedings of the Tenth International Workshop on Variability Modelling of Software-intensive Systems (pp. 89-96). ACM.
+
+* Devroey, X., Perrouin, G., Papadakis, M., Legay, A., Schobbens, P. Y., & Heymans, P. (2016, May). Featured model-based mutation analysis. In Proceedings of the 38th International Conference on Software Engineering (pp. 655-666). ACM.
+
+* Devroey, X., Perrouin, G., Papadakis, M., Legay, A., Schobbens, P. Y., & Heymans, P. (2017, March). Automata Language Equivalence vs. Simulations for Model-based Mutant Equivalence: An Empirical Evaluation. In Software Testing, Verification and Validation (ICST), 2017 IEEE International Conference on (pp. 424-429). IEEE.
+
+* Dirk Beyer and Thomas Lemberger. Software Verification: Testing vs. Model Checking. In Ofer Strichman and Rachel Tzoref-Brill, editors, Proceedings of the 13th Haifa Verification Conference (HVC 2017, Haifa, Israel, November 13-25), volume 10629 of LNCS, pages 99-114, 2017. Springer-Verlag, Heidelberg
+
+* Dirk Beyer, Matthias Dangl, and Philipp Wendler. A Unifying View on SMT-Based Software Verification. Journal of Automated Reasoning, 60(3):299--335, 2018.
+Long, F., Amidon, P., & Rinard, M. (2017, August). Automatic inference of code transforms for patch generation. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 727-739). ACM.
+
+* Quatmann, T., Junges, S., & Katoen, J. P. (2017, July). Markov Automata with Multiple Objectives. In International Conference on Computer Aided Verification (pp. 140-159). Springer, Cham.
+Sanchez, A.B., Segura, S., Ruiz-Cortes, A.: A Comparison of Test Case Prioritization Criteria for Software Product Lines. In: ICST ’14, pp. 41–50. IEEE (2014)
+
+* Yi, J., Ahmed, U. Z., Karkare, A., Tan, S. H., & Roychoudhury, A. (2017, August). A feasibility study of using automated program repair for introductory programming assignments. In Proceedings of the 2017 11th Joint Meeting on Foundations of Software Engineering (pp. 740-751). ACM.
 
 
 # References #
