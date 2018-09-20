@@ -29,7 +29,7 @@ Experiment hylaaOptimization {
 	 	 Warm description "Warm" factor optimization parameters {params "settings.opt_decompose_lp=False"} execution hylaaTool,
 	 	 Decomp description "Decomp" factor optimization parameters {params "settings.opt_warm_start_lp=False"} execution hylaaTool,
 	 	 Basic description "Basic" factor optimization parameters {params "settings.opt_warm_start_lp=False settings.opt_decompose_lp=False"} execution hylaaTool,
-	 	 NoInput description "No Input" factor optimization parameters {params ""} execution hylaaToolNoInput	 
+	 	 NoInput description "No Input" factor optimization  execution hylaaToolNoInput	 
 	 }
 	 Objects {description "Number of steps" scaleType Logarithmic { 
     	steps31 {description "31 steps" value "31"  parameters {num_steps "31", step_size "0.200000000"}},
@@ -80,7 +80,7 @@ Experiment hylaaOptimization {
 	 	        mkdir{command "mkdir -p /opt/models/${treatment.name}"},
 				hyst{command "java -jar /opt/hyst-1.5/src/Hyst.jar -i /opt/optimizations/io.xml -o /opt/models/${treatment.name}/${object.parameter.num_steps}.py -tool hylaa '-settings settings.print_output=False ${treatment.parameter.params} -step ${object.parameter.step_size}'"}
 			}
-	 	    
+	 	   
  
 	 		postprocessing {
 	 	       rm{command "rm -f /opt/models/${treatment.name}/${object.parameter.num_steps}.py"}
@@ -93,7 +93,7 @@ Experiment hylaaOptimization {
 	 	    
 	 	    preprocessing {
 	 	        mkdir{command "mkdir -p /opt/models/${treatment.name}"},
-				hyst{command "java -jar /opt/hyst-1.5/src/Hyst.jar -i /opt/optimizations/ha.xml -o /opt/models/${treatment.name}/${object.parameter.num_steps}.py -tool hylaa '-settings settings.print_output=False ${treatment.parameter.params} -step ${object.parameter.step_size}'"}
+				hyst{command "java -jar /opt/hyst-1.5/src/Hyst.jar -i /opt/optimizations/ha.xml -o /opt/models/${treatment.name}/${object.parameter.num_steps}.py -tool hylaa '-settings settings.print_output=False -step ${object.parameter.step_size}'"}
 	 	   }
  
 	 	   postprocessing {
@@ -101,7 +101,7 @@ Experiment hylaaOptimization {
 	 	   }
 	 		
 	 	}
-	 		 
+	 		
 	}
     Infrastructure {
 	    user{
