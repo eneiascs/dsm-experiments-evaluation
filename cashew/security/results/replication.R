@@ -1,7 +1,8 @@
 	
 library(jsonlite)
 library(ggplot2)
-pdf(onefile = FALSE)
+pdf(onefile = FALSE, width=21/2.54, height=7/2.54,
+    pointsize=10)
 
 names<-c("treatment","object","execution","dependentVariable" ,"min","mean","max")
 df<-data.frame(replicate(4,character(0)), replicate(3,numeric(0)))
@@ -364,6 +365,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Total time (s)")+
 		ggtitle(paste("Total time (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -379,6 +381,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Hits ")+
 		ggtitle(paste("Hits (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -394,6 +397,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Misses ")+
 		ggtitle(paste("Misses (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -409,6 +413,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Hits/Misses ratio ")+
 		ggtitle(paste("Hits/Misses ratio (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -425,6 +430,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Cashew") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Cashew' & dependentVariable=='hits' & !is.na(mean))	
@@ -438,6 +444,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits ")+
 	ggtitle("Hits for Cashew") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Cashew' & dependentVariable=='misses' & !is.na(mean))	
@@ -451,6 +458,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Misses ")+
 	ggtitle("Misses for Cashew") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Cashew' & dependentVariable=='hitsMissesRatio' & !is.na(mean))	
@@ -464,6 +472,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits/Misses ratio ")+
 	ggtitle("Hits/Misses ratio for Cashew") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -477,6 +486,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for No cache") + 
+	  theme(text = element_text(size=15)) + 
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='hits' & !is.na(mean))	
@@ -490,6 +500,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits ")+
 	ggtitle("Hits for No cache") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='misses' & !is.na(mean))	
@@ -503,6 +514,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Misses ")+
 	ggtitle("Misses for No cache") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='hitsMissesRatio' & !is.na(mean))	
@@ -515,7 +527,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits/Misses ratio ")+
-	ggtitle("Hits/Misses ratio for No cache") + 
+	ggtitle("Hits/Misses ratio for No cache") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No Normalization' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -528,7 +541,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
-	ggtitle("Total time for No Normalization") + 
+	ggtitle("Total time for No Normalization") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No Normalization' & dependentVariable=='hits' & !is.na(mean))	
@@ -542,6 +556,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits ")+
 	ggtitle("Hits for No Normalization") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No Normalization' & dependentVariable=='misses' & !is.na(mean))	
@@ -554,7 +569,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Misses ")+
-	ggtitle("Misses for No Normalization") + 
+	ggtitle("Misses for No Normalization") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No Normalization' & dependentVariable=='hitsMissesRatio' & !is.na(mean))	
@@ -568,6 +584,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Hits/Misses ratio ")+
 	ggtitle("Hits/Misses ratio for No Normalization") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 df$dependentVariable<-as.factor(df$dependentVariable)
@@ -612,15 +629,17 @@ if(nrow(DF) > 0){
           theme_bw() +
           scale_x_discrete(name = "Program")+
           scale_y_continuous(name = "Difference (%)")+
-          ggtitle(paste("Differences between Replication With and Without the Tool", sep = "")) + 
+          ggtitle(paste("Differences between Replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
   
   print(ggplot(DF, aes(x=original, y=difference, group=treatment, color=treatment)) + 
           geom_line() + geom_point()+
           scale_color_brewer(palette="Paired") +
           theme_bw() +
-          scale_x_continuous(name = "Total time without the tool (s)", round(breaks_continuous(data=c(0,5500),steps=11),digits=0))+
-          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.1,1), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
-          ggtitle(paste("Relative differences between replications", sep = "")) + 
+          scale_x_continuous(name = "Total time with original scripts (s)", round(breaks_continuous(data=c(0,5500),steps=11),digits=0))+
+          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.15,0.15), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
+          #ggtitle(paste("Relative differences between replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
 }	

@@ -1,8 +1,8 @@
 	
 library(jsonlite)
 library(ggplot2)
-pdf(onefile = FALSE)
-
+pdf(onefile = FALSE, width=21/2.54, height=14/2.54,
+    pointsize=10)
 names<-c("treatment","object","execution","dependentVariable" ,"min","mean","max")
 df<-data.frame(replicate(4,character(0)), replicate(3,numeric(0)))
 names(df)<-names
@@ -1090,9 +1090,10 @@ for (exec in levels(df$execution)){
 		geom_line() + geom_point()+
 		scale_color_brewer(palette="Paired") +
 		theme_bw() +
-		scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
+		scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=c(31,234965),steps=8))+
 		scale_y_continuous(name = "Runtime (seconds)")+
-		ggtitle(paste("Runtime (",exec,")", sep = "")) + 
+		#ggtitle(paste("Runtime (",exec,")", sep = "")) + 
+		theme(text = element_text(size=15)) +
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -1108,6 +1109,8 @@ if(nrow(DF)>0){
 	scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
 	scale_y_continuous(name = "Runtime (seconds)")+
 	ggtitle("Runtime for Basic") + 
+  theme(text = element_text(size=15)) +
+    
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Decomp' & dependentVariable=='time' & !is.na(mean))	
@@ -1120,7 +1123,9 @@ if(nrow(DF)>0){
 	scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
 	scale_y_continuous(name = "Runtime (seconds)")+
 	ggtitle("Runtime for Decomp") + 
-	theme(legend.title = element_blank())
+    theme(text = element_text(size=15)) +
+    
+    theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Hylaa' & dependentVariable=='time' & !is.na(mean))	
 if(nrow(DF)>0){
@@ -1132,7 +1137,9 @@ if(nrow(DF)>0){
 	scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
 	scale_y_continuous(name = "Runtime (seconds)")+
 	ggtitle("Runtime for Hylaa") + 
-	theme(legend.title = element_blank())
+    theme(text = element_text(size=15)) +
+    
+    theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No Input' & dependentVariable=='time' & !is.na(mean))	
 if(nrow(DF)>0){
@@ -1144,7 +1151,9 @@ if(nrow(DF)>0){
 	scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
 	scale_y_continuous(name = "Runtime (seconds)")+
 	ggtitle("Runtime for No Input") + 
-	theme(legend.title = element_blank())
+  theme(text = element_text(size=15)) +
+    
+    theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Warm' & dependentVariable=='time' & !is.na(mean))	
 if(nrow(DF)>0){
@@ -1156,6 +1165,8 @@ if(nrow(DF)>0){
 	scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=DF$object,steps=10))+
 	scale_y_continuous(name = "Runtime (seconds)")+
 	ggtitle("Runtime for Warm") + 
+  theme(text = element_text(size=15)) +
+    
 	theme(legend.title = element_blank())
 }	
 df$dependentVariable<-as.factor(df$dependentVariable)
@@ -1200,16 +1211,19 @@ if(nrow(DF) > 0){
           theme_bw() +
           scale_x_log10(name = "Number of steps(log scale)", round(breaks_log(c(1,200000),steps=10),digits=0))+
           scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.1,1), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
-          ggtitle(paste("Differences between Replication With and Without the Tool", sep = "")) + 
+          ggtitle(paste("Differences between Replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
   
   print(ggplot(DF, aes(x=original, y=difference, group=treatment, color=treatment)) + 
           geom_line() + geom_point()+
           scale_color_brewer(palette="Paired") +
           theme_bw() +
-          scale_x_continuous(name = "Runtime without the tool (s)", round(breaks_continuous(data=c(0,12),steps=13),digits=0))+
-          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.1,1), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
-          ggtitle(paste("Relative differences between replications", sep = "")) + 
+          scale_x_continuous(name = "Runtime with original scripts (s)", round(breaks_continuous(data=c(0,12),steps=13),digits=0))+
+          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.05,0.75), breaks=breaks_continuous(c(0,0.7),steps=7)) +
+          #ggtitle(paste("Relative differences between replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
+  
 }	
 

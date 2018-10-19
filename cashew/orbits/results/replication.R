@@ -1,7 +1,9 @@
 	
 library(jsonlite)
 library(ggplot2)
-pdf(onefile = FALSE)
+#pdf(onefile = FALSE)
+pdf(onefile = FALSE, width=21/2.54, height=7/2.54,
+    pointsize=10)
 
 names<-c("treatment","object","execution","dependentVariable" ,"min","mean","max")
 df<-data.frame(replicate(4,character(0)), replicate(3,numeric(0)))
@@ -412,6 +414,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Average time (s)")+
 		ggtitle(paste("Average time (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -427,6 +430,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Maximum time (s)")+
 		ggtitle(paste("Maximum time (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -442,6 +446,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Total time (s)")+
 		ggtitle(paste("Total time (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +	  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -457,6 +462,7 @@ for (exec in levels(df$execution)){
 		scale_x_discrete(name = "Constraints")+
 		scale_y_continuous(name = "Number of Orbits ")+
 		ggtitle(paste("Number of Orbits (",exec,")", sep = "")) + 
+		  theme(text = element_text(size=15)) +  
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -473,6 +479,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
 	ggtitle("Average time for All transformations") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='All transformations' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -485,7 +492,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
-	ggtitle("Maximum time for All transformations") + 
+	ggtitle("Maximum time for All transformations") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='All transformations' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -499,6 +507,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for All transformations") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='All transformations' & dependentVariable=='orbits' & !is.na(mean))	
@@ -512,6 +521,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for All transformations") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except order' & dependentVariable=='averageTime' & !is.na(mean))	
@@ -525,6 +535,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
 	ggtitle("Average time for Except order") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except order' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -538,6 +549,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
 	ggtitle("Maximum time for Except order") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except order' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -551,6 +563,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Except order") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except order' & dependentVariable=='orbits' & !is.na(mean))	
@@ -564,6 +577,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for Except order") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeVar' & dependentVariable=='averageTime' & !is.na(mean))	
@@ -577,6 +591,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
 	ggtitle("Average time for Except removeVar") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeVar' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -589,7 +604,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
-	ggtitle("Maximum time for Except removeVar") + 
+	ggtitle("Maximum time for Except removeVar") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeVar' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -603,6 +619,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Except removeVar") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeVar' & dependentVariable=='orbits' & !is.na(mean))	
@@ -616,6 +633,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for Except removeVar") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeConj' & dependentVariable=='averageTime' & !is.na(mean))	
@@ -628,7 +646,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
-	ggtitle("Average time for Except removeConj") + 
+	ggtitle("Average time for Except removeConj") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeConj' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -641,7 +660,8 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
-	ggtitle("Maximum time for Except removeConj") + 
+	ggtitle("Maximum time for Except removeConj") +
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeConj' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -655,6 +675,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Except removeConj") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except removeConj' & dependentVariable=='orbits' & !is.na(mean))	
@@ -668,6 +689,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for Except removeConj") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename alph' & dependentVariable=='averageTime' & !is.na(mean))	
@@ -681,6 +703,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
 	ggtitle("Average time for Except rename alph") + 
+	  theme(text = element_text(size=15)) +  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename alph' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -694,6 +717,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
 	ggtitle("Maximum time for Except rename alph") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename alph' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -707,6 +731,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Except rename alph") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename alph' & dependentVariable=='orbits' & !is.na(mean))	
@@ -719,6 +744,7 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
+	  theme(text = element_text(size=15)) +
 	ggtitle("Number of Orbits for Except rename alph") + 
 	theme(legend.title = element_blank())
 }	
@@ -733,6 +759,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
 	ggtitle("Average time for Except rename var") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename var' & dependentVariable=='maxTime' & !is.na(mean))	
@@ -746,6 +773,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
 	ggtitle("Maximum time for Except rename var") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename var' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -759,6 +787,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
 	ggtitle("Total time for Except rename var") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='Except rename var' & dependentVariable=='orbits' & !is.na(mean))	
@@ -772,6 +801,7 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for Except rename var") + 
+	  theme(text = element_text(size=15)) +
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='averageTime' & !is.na(mean))	
@@ -784,6 +814,7 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Average time (s)")+
+	  theme(text = element_text(size=15)) +
 	ggtitle("Average time for No cache") + 
 	theme(legend.title = element_blank())
 }	
@@ -798,6 +829,8 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Maximum time (s)")+
 	ggtitle("Maximum time for No cache") + 
+	 theme(text = ) +
+	  
 	theme(legend.title = element_blank())
 }	
 DF<-subset(df,treatment=='No cache' & dependentVariable=='sumTime' & !is.na(mean))	
@@ -810,6 +843,7 @@ if(nrow(DF)>0){
 	theme_bw() +
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Total time (s)")+
+	  theme(text = element_text(size=15)) +
 	ggtitle("Total time for No cache") + 
 	theme(legend.title = element_blank())
 }	
@@ -824,7 +858,9 @@ if(nrow(DF)>0){
 	scale_x_discrete(name = "Constraints")+
 	scale_y_continuous(name = "Number of Orbits ")+
 	ggtitle("Number of Orbits for No cache") + 
-	theme(legend.title = element_blank())
+	  theme(text = element_text(size=15)) +
+	  theme(legend.title = element_blank())
+	
 }	
 df$dependentVariable<-as.factor(df$dependentVariable)
 df$treatment<-as.factor(df$treatment)
@@ -876,16 +912,22 @@ if(nrow(DF) > 0){
           scale_color_brewer(palette="Paired") +
           theme_bw() +
           scale_x_discrete(name = "Constraints")+
-          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.1,1), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
-          ggtitle(paste("Differences between Replication With and Without the Tool", sep = "")) + 
+          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.05,0.35), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
+          ggtitle(paste("Differences between Replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
+ 
+  #pdf(onefile = FALSE, width=15/2.54, height=5/2.54,
+  #    pointsize=10)
   
   print(ggplot(DF, aes(x=original, y=difference, group=treatment, color=treatment)) + 
           geom_line() + geom_point()+
           scale_color_brewer(palette="Paired") +
           theme_bw() +
-          scale_x_continuous(name = "Runtime without the tool (s)", round(breaks_continuous(data=c(0,13),steps=14),digits=0))+
-          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.1,1), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
-          ggtitle(paste("Relative differences between replications", sep = "")) + 
+          scale_x_continuous(name = "Runtime with original scripts (s)", round(breaks_continuous(data=c(0,13),steps=14),digits=0))+
+          scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.05,0.35), breaks=breaks_continuous(c(0,1),steps=10)) +
+          #theme(aspect.ratio=1/3)+
+          #ggtitle(paste("Relative differences between replications", sep = "")) + 
+          theme(text = element_text(size=15)) +
           theme(legend.title = element_blank()))
 }	
