@@ -1093,7 +1093,8 @@ for (exec in levels(df$execution)){
 		scale_x_log10(name = "Number of steps(log scale)", breaks_log(data=c(31,234965),steps=8))+
 		scale_y_continuous(name = "Runtime (seconds)")+
 		#ggtitle(paste("Runtime (",exec,")", sep = "")) + 
-		theme(text = element_text(size=15)) +
+		theme(text = element_text(size=19,margin=margin(t = 200, r = 200, b = 200, l = 200, unit = "pt"))
+) +
 		theme(legend.title = element_blank()))
 	}	
 }
@@ -1222,7 +1223,7 @@ if(nrow(DF) > 0){
           scale_x_continuous(name = "Runtime with original scripts (s)", round(breaks_continuous(data=c(0,12),steps=13),digits=0))+
           scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.05,0.75), breaks=breaks_continuous(c(0,0.7),steps=7)) +
           #ggtitle(paste("Relative differences between replications", sep = "")) + 
-          theme(text = element_text(size=15)) +
+          theme(text = element_text(size=19)) +
           theme(legend.title = element_blank()))
   
 }	

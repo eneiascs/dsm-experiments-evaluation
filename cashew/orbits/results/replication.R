@@ -928,6 +928,6 @@ if(nrow(DF) > 0){
           scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.05,0.35), breaks=breaks_continuous(c(0,1),steps=10)) +
           #theme(aspect.ratio=1/3)+
           #ggtitle(paste("Relative differences between replications", sep = "")) + 
-          theme(text = element_text(size=15)) +
+          theme(text = element_text(size=19)) +
           theme(legend.title = element_blank()))
 }	

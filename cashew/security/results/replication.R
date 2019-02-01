@@ -630,7 +630,7 @@ if(nrow(DF) > 0){
           scale_x_discrete(name = "Program")+
           scale_y_continuous(name = "Difference (%)")+
           ggtitle(paste("Differences between Replications", sep = "")) + 
-          theme(text = element_text(size=15)) +
+          theme(text = element_text(size=19)) +
           theme(legend.title = element_blank()))
   
   print(ggplot(DF, aes(x=original, y=difference, group=treatment, color=treatment)) + 
@@ -640,6 +640,6 @@ if(nrow(DF) > 0){
           scale_x_continuous(name = "Total time with original scripts (s)", round(breaks_continuous(data=c(0,5500),steps=11),digits=0))+
           scale_y_continuous(name = "Difference (%)", labels = scales::percent, limits =c(-0.15,0.15), breaks=breaks_continuous(c(-0.1,1),steps=11)) +
           #ggtitle(paste("Relative differences between replications", sep = "")) + 
-          theme(text = element_text(size=15)) +
+          theme(text = element_text(size=19)) +
           theme(legend.title = element_blank()))
 }	
